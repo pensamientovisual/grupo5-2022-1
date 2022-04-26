@@ -1,0 +1,13 @@
+$(document).ready(function(){
+    ("#alerce").click(function(){
+        $(this).fadeTo("fast", 0);
+    });
+
+    ("#alerce").click(function(){
+        $(this).fadeTo("fast",1);
+    });
+
+    ("#alerce").click(function(){
+        $("#d9").show("fast");
+    });
+})
