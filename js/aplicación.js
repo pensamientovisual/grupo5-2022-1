@@ -8,5 +8,6 @@ $(document).ready(function(){
 
   pajaro.mouseleave(function(){
     $(this).fadeTo("fast",0.5);
-});
+  });
+
 })

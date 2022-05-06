@@ -6,9 +6,13 @@
     left: 20px;
 }
 
+.fotopajaro{
+    height: 100px;
+    opacity: 50%;
+}
 #dprincipal{
-    width: 800px;
-    height: 400px;
+    width: 900px;
+    height: 350px;
     background-color: white;
     position: absolute;
     top: 50%;
@@ -19,30 +23,40 @@
 #darriba{
     display: flex;
     flex-direction: line;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
 }
 
 #dderecha{
     display: flex;
     flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-95%, -50%);
 }
 
 #dabajo{
     display: flex;
     flex-direction: line;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -95%);
 }
 
 #dizquierda{
     display: flex;
     flex-direction: column;
+    top: 50%;
+    left: 5%;
+    transform: translate(-5%, -50%);
 }
 
 body{
     background-color: #191A19;
-}
-
-.fotopajaro{
-    height: 100px;
-    opacity: 50%;
 }
 
 #d2{
