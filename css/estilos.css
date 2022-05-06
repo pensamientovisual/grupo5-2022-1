@@ -34,8 +34,8 @@
     flex-direction: column;
     position: absolute;
     top: 50%;
-    left: 95%;
-    transform: translate(-95%, -50%);
+    left: 97.5%;
+    transform: translate(-97.5%, -50%);
 }
 
 #dabajo{
@@ -50,9 +50,10 @@
 #dizquierda{
     display: flex;
     flex-direction: column;
+    position: absolute;
     top: 50%;
-    left: 5%;
-    transform: translate(-5%, -50%);
+    left: 2.5%;
+    transform: translate(-2.5%, -50%);
 }
 
 body{
