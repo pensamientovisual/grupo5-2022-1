@@ -10,4 +10,8 @@ $(document).ready(function(){
     $(this).fadeTo("fast",0.5);
   });
 
+  pajaro.click(function(){
+    $(this).fadeTo("fast",1);
+  });
+
 })
