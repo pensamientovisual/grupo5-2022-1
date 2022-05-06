@@ -44,11 +44,7 @@ body{
     height: 100px;
     opacity: 50%;
 }
-#dmapa{
-    position: absolute;
-    right: 50px;
-    top: 45px;
-}
+
 #d2{
     position:absolute;
     right: 110px;
