@@ -17,6 +17,12 @@ $(document).ready(function(){
 
   $("#fotocondor").click(function(){
     $("#condor").show('fast');
+    $("#garza").hide('fast');
+  });
+
+  $("#fotogarzacuca").click(function(){
+    $("#condor").hide('fast');
+    $("#garza").show('fast');
   });
 
 })
