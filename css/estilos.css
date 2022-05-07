@@ -15,7 +15,7 @@
 }
 .fotopajaro{
     height: 100px;
-    opacity: 50%;
+    opacity: 80%;
 }
 
 #dprincipal{
@@ -82,7 +82,7 @@
 }
 
 body{
-    background-color: #191A19;
+    background-color: #BBF1FA;
 }
 
 #d2{
@@ -170,5 +170,23 @@ body{
     opacity: 1;
 }
 
+.textopajaro{
+    font-family:Verdana;
+    font-size: 12px;
+    color:#663F3F;
 
+}
 
+.titulopajaro{
+    font-family:Verdana;
+    font-size: 22px;
+    color:#51C2D5;
+    letter-spacing: 6px;
+    background-color: aliceblue;
+}
+
+.enlace{
+    font-family:Verdana;
+    font-size: 12px;
+    color:#663F3F;
+  }

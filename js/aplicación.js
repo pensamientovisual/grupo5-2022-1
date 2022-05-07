@@ -7,7 +7,7 @@ $(document).ready(function(){
   });
 
   pajaro.mouseleave(function(){
-    $(this).fadeTo("fast",0.5);
+    $(this).fadeTo("fast",0.8);
   });
 
   pajaro.click(function(){
