@@ -1,17 +1,23 @@
 $(document).ready(function(){
 
   var pajaro = $(".fotopajaro")
+  var titulos = $("#titulo")
 
   pajaro.mouseenter(function(){
       $(this).fadeTo("fast",1);
+   
   });
 
   pajaro.mouseleave(function(){
     $(this).fadeTo("fast",0.8);
+   
   });
 
   pajaro.click(function(){
     $(this).fadeTo("fast",1);
+    $(titulos).hide('fast');
+
+   
   });
 
   $("#fotocondor").click(function(){
@@ -45,6 +51,8 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+    
+
   });
 
   $("#fotogarzacuca").click(function(){
@@ -78,6 +86,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+    
   });
 
   $("#fotohuala").click(function(){
@@ -111,6 +120,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+    
   });
 
   $("#fotoaguila").click(function(){
@@ -144,6 +154,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+    
   });
 
   $("#fotobandurria").click(function(){
@@ -177,6 +188,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+    
   });
 
   $("#fotocormorandelasrocas").click(function(){
@@ -210,6 +222,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+    
   });
 
   $("#fotoquetruvolador").click(function(){
@@ -243,6 +256,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+    
   });
 
   $("#fotocaiquen").click(function(){
@@ -276,6 +290,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+    
   });
 
   $("#fotocaranca").click(function(){
@@ -309,6 +324,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+    
   });
 
   $("#fotopeuco").click(function(){
@@ -342,6 +358,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+    
   });
 
   $("#fototaguacomun").click(function(){
@@ -375,6 +392,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+    
   });
 
   $("#fotoaguilucho").click(function(){
@@ -408,6 +426,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotopatoreal").click(function(){
@@ -441,6 +460,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fototucuquere").click(function(){
@@ -474,6 +494,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotocarpinteronegro").click(function(){
@@ -507,6 +528,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotopilpilenaustral").click(function(){
@@ -540,6 +562,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotomartinpescador").click(function(){
@@ -573,6 +596,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotopatocorrentino").click(function(){
@@ -606,6 +630,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotochoroy").click(function(){
@@ -639,6 +664,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fototorcaza").click(function(){
@@ -672,6 +698,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotoconcondechiloe").click(function(){
@@ -705,6 +732,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotocernicalo").click(function(){
@@ -738,6 +766,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fototordo").click(function(){
@@ -771,6 +800,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotohuethuet").click(function(){
@@ -804,6 +834,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotodiucadechiloe").click(function(){
@@ -837,6 +868,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotochincol").click(function(){
@@ -870,6 +902,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotorayaditodechiloe").click(function(){
@@ -903,6 +936,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotochercan").click(function(){
@@ -936,6 +970,7 @@ $(document).ready(function(){
     $("#chercan").show('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotopicaflorchico").click(function(){
@@ -969,6 +1004,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").show('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotocachudito").click(function(){
@@ -1002,6 +1038,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").show('fast');
+   
   });
 
   $("#fotocondor").click(function(){
@@ -1035,6 +1072,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotocondor").click(function(){
@@ -1068,6 +1106,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotocondor").click(function(){
@@ -1101,6 +1140,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
 })
