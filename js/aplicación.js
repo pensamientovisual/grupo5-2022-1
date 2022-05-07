@@ -46,7 +46,7 @@ $(document).ready(function(){
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
   });
-  
+
   $("#fotogarzacuca").click(function(){
     $("#condor").hide('fast');
     $("#garza").show('fast');
