@@ -178,7 +178,7 @@ body{
 
 .textomapa{
     font-family:Verdana;
-    font-size: 8px;
+    font-size: 10px;
     color:#663F3F;
 
 }
@@ -192,8 +192,9 @@ body{
 
 .enlace{
     font-family:Verdana;
-    font-size: 12px;
+    font-size: 11px;
     color:#663F3F;
+    line-height: 1px;
   }
 
   
@@ -207,7 +208,7 @@ body{
     position: absolute;
     top: 50%;
     left: 95%;
-    transform: translate(-100%, -50%);
+    transform: translate(1800%, -1100%);
   }
   #circulononguen {
     width: 10px;
@@ -219,7 +220,7 @@ body{
     position: absolute;
     top: 50%;
     left: 95%;
-    transform: translate(-100%, -50%);
+    transform: translate(1450%, -1200%);
   }
   #circulohuerquehue {
     width: 10px;
@@ -231,7 +232,7 @@ body{
     position: absolute;
     top: 50%;
     left: 95%;
-    transform: translate(-100%, -50%);
+    transform: translate(1800%, -140%);
   }
   #circulovillarrica {
     width: 10px;
@@ -243,7 +244,7 @@ body{
     position: absolute;
     top: 50%;
     left: 95%;
-    transform: translate(-100%, -50%);
+    transform: translate(1800%, -270%);
   }
   #circulonahuelbuta {
     width: 10px;
@@ -255,7 +256,7 @@ body{
     position: absolute;
     top: 50%;
     left: 95%;
-    transform: translate(-100%, -50%);
+    transform: translate(1350%, -900%);
   }
   #circuloconguillio {
     width: 10px;
@@ -267,7 +268,7 @@ body{
     position: absolute;
     top: 50%;
     left: 95%;
-    transform: translate(-100%, -50%);
+    transform: translate(1700%, -500%);
   }
   #circulotolhuaca {
     width: 10px;
@@ -279,7 +280,7 @@ body{
     position: absolute;
     top: 50%;
     left: 95%;
-    transform: translate(-100%, -50%);
+    transform: translate(1800%, -700%);
   }
   #circuloalercecostero {
     width: 10px;
@@ -291,7 +292,7 @@ body{
     position: absolute;
     top: 50%;
     left: 95%;
-    transform: translate(-100%, -50%);
+    transform: translate(1400%, -100%);
   }
   #circulopumalin {
     width: 10px;
@@ -303,7 +304,7 @@ body{
     position: absolute;
     top: 50%;
     left: 95%;
-    transform: translate(-100%, -50%);
+    transform: translate(1700%, 1200%);
   }
   #circulopuyehue {
     width: 10px;
@@ -315,7 +316,7 @@ body{
     position: absolute;
     top: 50%;
     left: 95%;
-    transform: translate(-100%, -50%);
+    transform: translate(1700%, 180%);
   }
   
   #circulovicenteperezrosales {
@@ -328,7 +329,7 @@ body{
     position: absolute;
     top: 50%;
     left: 95%;
-    transform: translate(-100%, -50%);
+    transform: translate(1500%, 400%);
   }
   #circulocorcovado {
     width: 10px;
@@ -340,7 +341,7 @@ body{
     position: absolute;
     top: 50%;
     left: 95%;
-    transform: translate(-100%, -50%);
+    transform: translate(1700%, 1300%);
   }
   #circuloalerceandino {
     width: 10px;
@@ -352,7 +353,7 @@ body{
     position: absolute;
     top: 50%;
     left: 95%;
-    transform: translate(-100%, -50%);
+    transform: translate(1660%, 600%);
   }
   #circulochiloe {
     width: 10px;
@@ -364,7 +365,7 @@ body{
     position: absolute;
     top: 50%;
     left: 95%;
-    transform: translate(-100%, -50%);
+    transform: translate(1200%, 1300%);
   }
   #circulohornopiren {
     width: 10px;
@@ -376,5 +377,5 @@ body{
     position: absolute;
     top: 50%;
     left: 95%;
-    transform: translate(-100%, -50%);
+    transform: translate(1700%, 950%);
   }
