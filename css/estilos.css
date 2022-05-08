@@ -204,9 +204,10 @@ body{
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background: #ec4646;
-    position: relative;
-    top: -130px;
-    left: 770px;
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-100%, -50%);
   }
   #circulononguen {
     width: 10px;
@@ -251,9 +252,10 @@ body{
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background: #ec4646;
-    position: relative;
-    top: -100px;
-    left: 700px;
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-100%, -50%);
   }
   #circuloconguillio {
     width: 10px;
