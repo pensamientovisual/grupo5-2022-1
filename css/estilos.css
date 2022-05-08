@@ -176,6 +176,12 @@ body{
 
 }
 
+.textomapa{
+    font-family:Verdana;
+    font-size: 8px;
+    color:#663F3F;
+
+}
 .titulopajaro{
     font-family:Verdana;
     font-size: 22px;
@@ -188,4 +194,185 @@ body{
     font-family:Verdana;
     font-size: 12px;
     color:#663F3F;
+  }
+
+  
+  #circulolagunadellaja {
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ec4646;
+    position: relative;
+    top: -130px;
+    left: 770px;
+  }
+  #circulononguen {
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ec4646;
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-100%, -50%);
+  }
+  #circulohuerquehue {
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ec4646;
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-100%, -50%);
+  }
+  #circulovillarrica {
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ec4646;
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-100%, -50%);
+  }
+  #circulonahuelbuta {
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ec4646;
+    position: relative;
+    top: -100px;
+    left: 700px;
+  }
+  #circuloconguillio {
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ec4646;
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-100%, -50%);
+  }
+  #circulotolhuaca {
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ec4646;
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-100%, -50%);
+  }
+  #circuloalercecostero {
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ec4646;
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-100%, -50%);
+  }
+  #circulopumalin {
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ec4646;
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-100%, -50%);
+  }
+  #circulopuyehue {
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ec4646;
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-100%, -50%);
+  }
+  
+  #circulovicenteperezrosales {
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ec4646;
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-100%, -50%);
+  }
+  #circulocorcovado {
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ec4646;
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-100%, -50%);
+  }
+  #circuloalerceandino {
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ec4646;
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-100%, -50%);
+  }
+  #circulochiloe {
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ec4646;
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-100%, -50%);
+  }
+  #circulohornopiren {
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ec4646;
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-100%, -50%);
   }
