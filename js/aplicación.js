@@ -1520,5 +1520,10 @@ $(document).ready(function(){
     $("#fotobandurria").fadeTo("fast",0.2);
     $("#fotoaguila").fadeTo("fast",0.2);
     $("#fotohuala").fadeTo("fast",0.2);
-  }); 
+  });
+
+
+
+
+  
 })
