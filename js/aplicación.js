@@ -5,14 +5,15 @@ $(document).ready(function(){
   var instr = $("#instrucciones")
 
   pajaro.mouseenter(function(){
-      $(this).fadeTo("fast", 1);
+      $(this).css("fast", 1);
   });
 
   pajaro.mouseleave(function(){
-    $(this).fadeTo("fast", 0.6); 
+    $(this).css("fast", 0.6); 
   });
 
   pajaro.click(function(){
+    $(this).css("fast", 1);
     $(titulos).hide('fast');
     $(instr).hide('fast');
   });
@@ -28,7 +29,7 @@ $(document).ready(function(){
     $("#caiquen").hide('fast');
     $("#caranca").hide('fast');
     $("#peuco").hide('fast');
-    $("#tagua").hide('fast'); 
+    $("#tagua").hide('fast');
     $("#aguilucho").hide('fast');
     $("#patoreal").hide('fast');
     $("#tucuquere").hide('fast');
@@ -48,6 +49,8 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+    
+
   });
 
   $("#fotogarzacuca").click(function(){
@@ -61,7 +64,7 @@ $(document).ready(function(){
     $("#caiquen").hide('fast');
     $("#caranca").hide('fast');
     $("#peuco").hide('fast');
-    $("#tagua").hide('fast'); 
+    $("#tagua").hide('fast');
     $("#aguilucho").hide('fast');
     $("#patoreal").hide('fast');
     $("#tucuquere").hide('fast');
@@ -81,6 +84,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+    
   });
 
   $("#fotohuala").click(function(){
@@ -113,6 +117,8 @@ $(document).ready(function(){
     $("#rayadito").hide('fast');
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
+    $("#cachudito").hide('fast');
+    
   });
 
   $("#fotoaguila").click(function(){
@@ -146,6 +152,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+    
   });
 
   $("#fotobandurria").click(function(){
@@ -179,6 +186,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+    
   });
 
   $("#fotocormorandelasrocas").click(function(){
@@ -212,6 +220,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+    
   });
 
   $("#fotoquetruvolador").click(function(){
@@ -245,6 +254,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+    
   });
 
   $("#fotocaiquen").click(function(){
@@ -278,6 +288,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+    
   });
 
   $("#fotocaranca").click(function(){
@@ -311,6 +322,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+    
   });
 
   $("#fotopeuco").click(function(){
@@ -344,6 +356,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+    
   });
 
   $("#fototaguacomun").click(function(){
@@ -377,6 +390,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+    
   });
 
   $("#fotoaguilucho").click(function(){
@@ -410,6 +424,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotopatoreal").click(function(){
@@ -443,6 +458,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fototucuquere").click(function(){
@@ -476,6 +492,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotocarpinteronegro").click(function(){
@@ -509,6 +526,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotopilpilenaustral").click(function(){
@@ -542,6 +560,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotomartinpescador").click(function(){
@@ -575,6 +594,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotopatocorrentino").click(function(){
@@ -608,6 +628,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotochoroy").click(function(){
@@ -641,6 +662,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fototorcaza").click(function(){
@@ -674,6 +696,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotoconcondechiloe").click(function(){
@@ -707,6 +730,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotocernicalo").click(function(){
@@ -740,6 +764,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fototordo").click(function(){
@@ -773,6 +798,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotohuethuet").click(function(){
@@ -806,6 +832,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotodiucadechiloe").click(function(){
@@ -839,6 +866,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotochincol").click(function(){
@@ -872,6 +900,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotorayaditodechiloe").click(function(){
@@ -905,6 +934,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotochercan").click(function(){
@@ -938,6 +968,7 @@ $(document).ready(function(){
     $("#chercan").show('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotopicaflorchico").click(function(){
@@ -971,6 +1002,7 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").show('fast');
     $("#cachudito").hide('fast');
+   
   });
 
   $("#fotocachudito").click(function(){
@@ -1004,382 +1036,492 @@ $(document).ready(function(){
     $("#chercan").hide('fast');
     $("#picaflor").hide('fast');
     $("#cachudito").show('fast');
+   
   });
 
-  $("#circulolagunadellaja").click(function(){
-    $("#fotocondor").fadeTo("fast", 1);
-    $("#fotogarzacuca").fadeTo("fast", 0.2);
-    $("#fotohuala").fadeTo("fast", 0.2);
-    $("fotoaguila").fadeTo("fast", 1);
-    $("fotobandurria"),fadeTo("fast", 1);
-    $("#fotocormorandelasrocas").fadeTo("fast", 0.2);
-    $("#fotoquetruvolador").fadeTo("fast", 0.2);
-    $("#fotocaiquen").fadeTo("fast", 0.2);
-    $("#fotocaranca").fadeTo("fast", 0.2);
-    $("#fotopeuco").fadeTo("fast", 1);
-    $("#fototaguacomun").fadeTo("fast", 1);
-    $("#fotoaguilucho").fadeTo("fast", 1);
-    $("#fotopatoreal").fadeTo("fast", 0.2);  
-    $("#fototucuquere").fadeTo("fast", 1);
-    $("#fotocarpinteronegro").fadeTo("fast", 1);
-    $("#fotopilpilenaustral").fadeTo("fast", 0.2);
-    $("#fotomartinpescador").fadeTo("fast", 0.2);
-    $("#fotopatocorrentino").fadeTo("fast", 1);
-    $("#fotochoroy").fadeTo("fast", 0.2);
-    $("#fototorcaza").fadeTo("fast", 0.2);
-    $("#fotoconcondechiloe").fadeTo("fast", 0.2);
-    $("#fotocernicalo").fadeTo("fast", 1);
-    $("#fototordo").fadeTo("fast", 1);
-    $("#fotohuethuet").fadeTo("fast", 1);
-    $("#fotodiucadechiloe").fadeTo("fast", 0.2);
-    $("#fotochincol").fadeTo("fast", 1);
-    $("#fotorayaditodechiloe").fadeTo("fast", 1);
-    $("#fotochercan").fadeTo("fast",1);
-    $("#fotopicaflorchico").fadeTo("fast", 1);
-    $("#fotocachudito").fadeTo("fast", 1);
+  $("#fotocondor").click(function(){
+    $("#condor").show('fast');
+    $("#garza").hide('fast');
+    $("#huala"). hide('fast');
+    $("#aguila").hide('fast');
+    $("#bandurria").hide('fast');
+    $("#cormoran").hide('fast');
+    $("#quetru").hide('fast');
+    $("#caiquen").hide('fast');
+    $("#caranca").hide('fast');
+    $("#peuco").hide('fast');
+    $("#tagua").hide('fast');
+    $("#aguilucho").hide('fast');
+    $("#patoreal").hide('fast');
+    $("#tucuquere").hide('fast');
+    $("#carpintero").hide('fast');
+    $("#pilpilen").hide('fast');
+    $("#martinpescador").hide('fast');
+    $("#cortacorriente").hide('fast');
+    $("#choroy").hide('fast');
+    $("#torcaza").hide('fast');
+    $("#concon").hide('fast');
+    $("#cernicalo").hide('fast');
+    $("#tordo").hide('fast');
+    $("#huethuet").hide('fast');
+    $("#diuca").hide('fast');
+    $("#chincol").hide('fast');
+    $("#rayadito").hide('fast');
+    $("#chercan").hide('fast');
+    $("#picaflor").hide('fast');
+    $("#cachudito").hide('fast');
+   
+  });
+
+  $("#fotocondor").click(function(){
+    $("#condor").show('fast');
+    $("#garza").hide('fast');
+    $("#huala"). hide('fast');
+    $("#aguila").hide('fast');
+    $("#bandurria").hide('fast');
+    $("#cormoran").hide('fast');
+    $("#quetru").hide('fast');
+    $("#caiquen").hide('fast');
+    $("#caranca").hide('fast');
+    $("#peuco").hide('fast');
+    $("#tagua").hide('fast');
+    $("#aguilucho").hide('fast');
+    $("#patoreal").hide('fast');
+    $("#tucuquere").hide('fast');
+    $("#carpintero").hide('fast');
+    $("#pilpilen").hide('fast');
+    $("#martinpescador").hide('fast');
+    $("#cortacorriente").hide('fast');
+    $("#choroy").hide('fast');
+    $("#torcaza").hide('fast');
+    $("#concon").hide('fast');
+    $("#cernicalo").hide('fast');
+    $("#tordo").hide('fast');
+    $("#huethuet").hide('fast');
+    $("#diuca").hide('fast');
+    $("#chincol").hide('fast');
+    $("#rayadito").hide('fast');
+    $("#chercan").hide('fast');
+    $("#picaflor").hide('fast');
+    $("#cachudito").hide('fast');
+   
+  });
+
+  $("#fotocondor").click(function(){
+    $("#condor").show('fast');
+    $("#garza").hide('fast');
+    $("#huala"). hide('fast');
+    $("#aguila").hide('fast');
+    $("#bandurria").hide('fast');
+    $("#cormoran").hide('fast');
+    $("#quetru").hide('fast');
+    $("#caiquen").hide('fast');
+    $("#caranca").hide('fast');
+    $("#peuco").hide('fast');
+    $("#tagua").hide('fast');
+    $("#aguilucho").hide('fast');
+    $("#patoreal").hide('fast');
+    $("#tucuquere").hide('fast');
+    $("#carpintero").hide('fast');
+    $("#pilpilen").hide('fast');
+    $("#martinpescador").hide('fast');
+    $("#cortacorriente").hide('fast');
+    $("#choroy").hide('fast');
+    $("#torcaza").hide('fast');
+    $("#concon").hide('fast');
+    $("#cernicalo").hide('fast');
+    $("#tordo").hide('fast');
+    $("#huethuet").hide('fast');
+    $("#diuca").hide('fast');
+    $("#chincol").hide('fast');
+    $("#rayadito").hide('fast');
+    $("#chercan").hide('fast');
+    $("#picaflor").hide('fast');
+    $("#cachudito").hide('fast');
+  });
+  
+  $("#div1").css("opacity", ".5");
+
+
+  $(".circulolagunadellaja").hover(function(){
+    $("#fotocondor").css("opacity", "1");
+    $("#fotogarzacuca").css("opacity", "0.2");
+    $("#fotohuala").css("opacity", "0.2");
+    $("fotoaguila").css("opacity", "1");
+    $("fotobandurria").css("opacity", "1");
+    $("#fotocormorandelasrocas").css("opacity", "0.2");
+    $("#fotoquetruvolador").css("opacity", "0.2");
+    $("#fotocaiquen").css("opacity", "0.2");
+    $("#fotocaranca").css("opacity", "0.2");
+    $("#fotopeuco").css("opacity", "1");
+    $("#fototaguacomun").css("opacity", "1");
+    $("#fotoaguilucho").css("opacity", "1");
+    $("#fotopatoreal").css("opacity", "0.2");  
+    $("#fototucuquere").css("opacity", "1");
+    $("#fotocarpinteronegro").css("opacity", "1");
+    $("#fotopilpilenaustral").css("opacity", "0.2");
+    $("#fotomartinpescador").css("opacity", "0.2");
+    $("#fotopatocorrentino").css("opacity", "1");
+    $("#fotochoroy").css("opacity", "0.2");
+    $("#fototorcaza").css("opacity", "0.2");
+    $("#fotoconcondechiloe").css("opacity", "0.2");
+    $("#fotocernicalo").css("opacity", "1");
+    $("#fototordo").css("opacity", "1");
+    $("#fotohuethuet").css("opacity", "1");
+    $("#fotodiucadechiloe").css("opacity", "0.2");
+    $("#fotochincol").css("opacity", "1");
+    $("#fotorayaditodechiloe").css("opacity", "1");
+    $("#fotochercan").css("opacity","1");
+    $("#fotopicaflorchico").css("opacity", "1");
+    $("#fotocachudito").css("opacity", "1");
   });
 
   $("#circulononguen").click(function(){
-    $("#fotocachudito").fadeTo("fast",0.2);
-    $("#fotopicaflorchico").fadeTo("fast",0.2);
-    $("#fotochercan").fadeTo("fast",0.2);
-    $("#fotochincol").fadeTo("fast",0.2);
-    $("#fotodiucadechiloe").fadeTo("fast",0.2);
-    $("#fotohuethuet").fadeTo("fast",0.2);
-    $("#fototordo").fadeTo("fast",0.2);
-    $("#fotocernicalo").fadeTo("fast",0.2);
-    $("#fotoconcondechiloe").fadeTo("fast",0.2);
-    $("#fototorcaza").fadeTo("fast",0.2);
-    $("#fotochoroy").fadeTo("fast",0.2);
-    $("#fotopatocorrentino").fadeTo("fast",0.2);
-    $("#fotomartinpescador").fadeTo("fast",0.2);
-    $("#fotopilpilenaustral").fadeTo("fast",0.2);
-    $("#fotocarpinteronegro").fadeTo("fast",0.2);
-    $("#fototucuquere").fadeTo("fast",0.2);
-    $("#fotopatoreal").fadeTo("fast",0.2);
-    $("#fotopeuco").fadeTo("fast",0.2);
-    $("#fotocaranca").fadeTo("fast",0.2);
-    $("#fotocaiquen").fadeTo("fast",0.2);
-    $("#fotoquetruvolador").fadeTo("fast",0.2);
-    $("#fotocormorandelasrocas").fadeTo("fast",0.2);
-    $("#fotobandurria").fadeTo("fast",0.2);
-    $("#fotoaguila").fadeTo("fast",0.2);
-    $("#fotogarzacuca").fadeTo("fast",0.2);
-    $("#fotocondor").fadeTo("fast",0.2);
+    $("#fotocachudito").css("fast",0.2);
+    $("#fotopicaflorchico").css("fast",0.2);
+    $("#fotochercan").css("fast",0.2);
+    $("#fotochincol").css("fast",0.2);
+    $("#fotodiucadechiloe").css("fast",0.2);
+    $("#fotohuethuet").css("fast",0.2);
+    $("#fototordo").css("fast",0.2);
+    $("#fotocernicalo").css("fast",0.2);
+    $("#fotoconcondechiloe").css("fast",0.2);
+    $("#fototorcaza").css("fast",0.2);
+    $("#fotochoroy").css("fast",0.2);
+    $("#fotopatocorrentino").css("fast",0.2);
+    $("#fotomartinpescador").css("fast",0.2);
+    $("#fotopilpilenaustral").css("fast",0.2);
+    $("#fotocarpinteronegro").css("fast",0.2);
+    $("#fototucuquere").css("fast",0.2);
+    $("#fotopatoreal").css("fast",0.2);
+    $("#fotopeuco").css("fast",0.2);
+    $("#fotocaranca").css("fast",0.2);
+    $("#fotocaiquen").css("fast",0.2);
+    $("#fotoquetruvolador").css("fast",0.2);
+    $("#fotocormorandelasrocas").css("fast",0.2);
+    $("#fotobandurria").css("fast",0.2);
+    $("#fotoaguila").css("fast",0.2);
+    $("#fotogarzacuca").css("fast",0.2);
+    $("#fotocondor").css("fast",0.2);
   });
 
   $("#circulohuerquehue").click(function(){
-    $("#fotocachudito").fadeTo("fast",0.2);
-    $("#fotopicaflorchico").fadeTo("fast",0.2);
-    $("#fotochercan").fadeTo("fast",0.2);
-    $("#fotochincol").fadeTo("fast",0.2);
-    $("#fotodiucadechiloe").fadeTo("fast",0.2);
-    $("#fotohuethuet").fadeTo("fast",0.2);
-    $("#fototordo").fadeTo("fast",0.2);
-    $("#fotocernicalo").fadeTo("fast",0.2);
-    $("#fotoconcondechiloe").fadeTo("fast",0.2);
-    $("#fotopatocorrentino").fadeTo("fast",0.2);
-    $("#fotomartinpescador").fadeTo("fast",0.2);
-    $("#fotopilpilenaustral").fadeTo("fast",0.2);
-    $("#fototucuquere").fadeTo("fast",0.2);
-    $("#fotopatoreal").fadeTo("fast",0.2);
-    $("#fotopeuco").fadeTo("fast",0.2);
-    $("#fotocaranca").fadeTo("fast",0.2);
-    $("#fotocaiquen").fadeTo("fast",0.2);
-    $("#fotocormorandelasrocas").fadeTo("fast",0.2);
-    $("#fotobandurria").fadeTo("fast",0.2);
-    $("#fotoaguila").fadeTo("fast",0.2);
-    $("#fotogarzacuca").fadeTo("fast",0.2);
+    $("#fotocachudito").css("fast",0.2);
+    $("#fotopicaflorchico").css("fast",0.2);
+    $("#fotochercan").css("fast",0.2);
+    $("#fotochincol").css("fast",0.2);
+    $("#fotodiucadechiloe").css("fast",0.2);
+    $("#fotohuethuet").css("fast",0.2);
+    $("#fototordo").css("fast",0.2);
+    $("#fotocernicalo").css("fast",0.2);
+    $("#fotoconcondechiloe").css("fast",0.2);
+    $("#fotopatocorrentino").css("fast",0.2);
+    $("#fotomartinpescador").css("fast",0.2);
+    $("#fotopilpilenaustral").css("fast",0.2);
+    $("#fototucuquere").css("fast",0.2);
+    $("#fotopatoreal").css("fast",0.2);
+    $("#fotopeuco").css("fast",0.2);
+    $("#fotocaranca").css("fast",0.2);
+    $("#fotocaiquen").css("fast",0.2);
+    $("#fotocormorandelasrocas").css("fast",0.2);
+    $("#fotobandurria").css("fast",0.2);
+    $("#fotoaguila").css("fast",0.2);
+    $("#fotogarzacuca").css("fast",0.2);
   });
 
   $("#circulovillarrica").click(function(){
-    $("#fotocachudito").fadeTo("fast",0.2);
-    $("#fotopicaflorchico").fadeTo("fast",0.2);
-    $("#fotochincol").fadeTo("fast",0.2);
-    $("#fotodiucadechiloe").fadeTo("fast",0.2);
-    $("#fotohuethuet").fadeTo("fast",0.2);
-    $("#fototordo").fadeTo("fast",0.2);
-    $("#fotocernicalo").fadeTo("fast",0.2);
-    $("#fotoconcondechiloe").fadeTo("fast",0.2);
-    $("#fototorcaza").fadeTo("fast",0.2);
-    $("#fotochoroy").fadeTo("fast",0.2);
-    $("#fotopatocorrentino").fadeTo("fast",0.2);
-    $("#fotomartinpescador").fadeTo("fast",0.2);
-    $("#fotopilpilenaustral").fadeTo("fast",0.2);
-    $("#fotocarpinteronegro").fadeTo("fast",0.2);
-    $("#fototucuquere").fadeTo("fast",0.2);
-    $("#fotocaranca").fadeTo("fast",0.2);
-    $("#fotocaiquen").fadeTo("fast",0.2);
-    $("#fotoquetruvolador").fadeTo("fast",0.2);
-    $("#fotocormorandelasrocas").fadeTo("fast",0.2);
-    $("#fotobandurria").fadeTo("fast",0.2);
-    $("#fotogarzacuca").fadeTo("fast",0.2);
-    $("#fotocondor").fadeTo("fast",0.2);
+    $("#fotocachudito").css("fast",0.2);
+    $("#fotopicaflorchico").css("fast",0.2);
+    $("#fotochincol").css("fast",0.2);
+    $("#fotodiucadechiloe").css("fast",0.2);
+    $("#fotohuethuet").css("fast",0.2);
+    $("#fototordo").css("fast",0.2);
+    $("#fotocernicalo").css("fast",0.2);
+    $("#fotoconcondechiloe").css("fast",0.2);
+    $("#fototorcaza").css("fast",0.2);
+    $("#fotochoroy").css("fast",0.2);
+    $("#fotopatocorrentino").css("fast",0.2);
+    $("#fotomartinpescador").css("fast",0.2);
+    $("#fotopilpilenaustral").css("fast",0.2);
+    $("#fotocarpinteronegro").css("fast",0.2);
+    $("#fototucuquere").css("fast",0.2);
+    $("#fotocaranca").css("fast",0.2);
+    $("#fotocaiquen").css("fast",0.2);
+    $("#fotoquetruvolador").css("fast",0.2);
+    $("#fotocormorandelasrocas").css("fast",0.2);
+    $("#fotobandurria").css("fast",0.2);
+    $("#fotogarzacuca").css("fast",0.2);
+    $("#fotocondor").css("fast",0.2);
   });
 
   $("#circulonahuelbuta").click(function(){
-    $("#fotochincol").fadeTo("fast",0.2);
-    $("#fotodiucadechiloe").fadeTo("fast",0.2);
-    $("#fototordo").fadeTo("fast",0.2);
-    $("#fotoconcondechiloe").fadeTo("fast",0.2);
-    $("#fototorcaza").fadeTo("fast",0.2);
-    $("#fotochoroy").fadeTo("fast",0.2);
-    $("#fotopatocorrentino").fadeTo("fast",0.2);
-    $("#fotomartinpescador").fadeTo("fast",0.2);
-    $("#fotopilpilenaustral").fadeTo("fast",0.2);
-    $("#fotocaranca").fadeTo("fast",0.2);
-    $("#fotocaiquen").fadeTo("fast",0.2);
-    $("#fotoquetruvolador").fadeTo("fast",0.2);
-    $("#fotocormorandelasrocas").fadeTo("fast",0.2);
-    $("#fotohuala").fadeTo("fast",0.2);
-    $("#fotogarzacuca").fadeTo("fast",0.2);
-    $("#fotocondor").fadeTo("fast",0.2);
+    $("#fotochincol").css("fast",0.2);
+    $("#fotodiucadechiloe").css("fast",0.2);
+    $("#fototordo").css("fast",0.2);
+    $("#fotoconcondechiloe").css("fast",0.2);
+    $("#fototorcaza").css("fast",0.2);
+    $("#fotochoroy").css("fast",0.2);
+    $("#fotopatocorrentino").css("fast",0.2);
+    $("#fotomartinpescador").css("fast",0.2);
+    $("#fotopilpilenaustral").css("fast",0.2);
+    $("#fotocaranca").css("fast",0.2);
+    $("#fotocaiquen").css("fast",0.2);
+    $("#fotoquetruvolador").css("fast",0.2);
+    $("#fotocormorandelasrocas").css("fast",0.2);
+    $("#fotohuala").css("fast",0.2);
+    $("#fotogarzacuca").css("fast",0.2);
+    $("#fotocondor").css("fast",0.2);
   });
-
   $("#circulotolhuaca").click(function(){
-    $("#fotocachudito").fadeTo("fast",0.2);
-    $("#fotopicaflorchico").fadeTo("fast",0.2);
-    $("#fotochercan").fadeTo("fast",0.2);
-    $("#fotorayaditodechiloe").fadeTo("fast",0.2);
-    $("#fotochincol").fadeTo("fast",0.2);
-    $("#fotodiucadechiloe").fadeTo("fast",0.2);
-    $("#fotohuethuet").fadeTo("fast",0.2);
-    $("#fototordo").fadeTo("fast",0.2);
-    $("#fotocernicalo").fadeTo("fast",0.2);
-    $("#fotoconcondechiloe").fadeTo("fast",0.2);
-    $("#fotopatocorrentino").fadeTo("fast",0.2);
-    $("#fotopilpilenaustral").fadeTo("fast",0.2);
-    $("#fototucuquere").fadeTo("fast",0.2);
-    $("#fotopatoreal").fadeTo("fast",0.2);
-    $("#fotopeuco").fadeTo("fast",0.2);
-    $("#fotocaranca").fadeTo("fast",0.2);
-    $("#fotocaiquen").fadeTo("fast",0.2);
-    $("#fotoquetruvolador").fadeTo("fast",0.2);
-    $("#fotocormorandelasrocas").fadeTo("fast",0.2);
-    $("#fotohuala").fadeTo("fast",0.2);
-    $("#fotogarzacuca").fadeTo("fast",0.2);
+    $("#fotocachudito").css("fast",0.2);
+    $("#fotopicaflorchico").css("fast",0.2);
+    $("#fotochercan").css("fast",0.2);
+    $("#fotorayaditodechiloe").css("fast",0.2);
+    $("#fotochincol").css("fast",0.2);
+    $("#fotodiucadechiloe").css("fast",0.2);
+    $("#fotohuethuet").css("fast",0.2);
+    $("#fototordo").css("fast",0.2);
+    $("#fotocernicalo").css("fast",0.2);
+    $("#fotoconcondechiloe").css("fast",0.2);
+    $("#fotopatocorrentino").css("fast",0.2);
+    $("#fotopilpilenaustral").css("fast",0.2);
+    $("#fototucuquere").css("fast",0.2);
+    $("#fotopatoreal").css("fast",0.2);
+    $("#fotopeuco").css("fast",0.2);
+    $("#fotocaranca").css("fast",0.2);
+    $("#fotocaiquen").css("fast",0.2);
+    $("#fotoquetruvolador").css("fast",0.2);
+    $("#fotocormorandelasrocas").css("fast",0.2);
+    $("#fotohuala").css("fast",0.2);
+    $("#fotogarzacuca").css("fast",0.2);
   });
 
   $("#circuloconguillio").click(function(){
-    $("#fotodiucadechiloe").fadeTo("fast",0.2);
-    $("#fotoconcondechiloe").fadeTo("fast",0.2);
-    $("#fototorcaza").fadeTo("fast",0.2);
-    $("#fotopilpilenaustral").fadeTo("fast",0.2);
-    $("#fotoaguilucho").fadeTo("fast",0.2);
-    $("#fotocaranca").fadeTo("fast",0.2);
-    $("#fotocaiquen").fadeTo("fast",0.2);
-    $("#fotocormorandelasrocas").fadeTo("fast",0.2);
-    $("#fotobandurria").fadeTo("fast",0.2);
-    $("#fotoaguila").fadeTo("fast",0.2);
+    $("#fotodiucadechiloe").css("fast",0.2);
+    $("#fotoconcondechiloe").css("fast",0.2);
+    $("#fototorcaza").css("fast",0.2);
+    $("#fotopilpilenaustral").css("fast",0.2);
+    $("#fotoaguilucho").css("fast",0.2);
+    $("#fotocaranca").css("fast",0.2);
+    $("#fotocaiquen").css("fast",0.2);
+    $("#fotocormorandelasrocas").css("fast",0.2);
+    $("#fotobandurria").css("fast",0.2);
+    $("#fotoaguila").css("fast",0.2);
   });
 
   $("#circuloalercecostero").click(function(){
-    $("#fotorayaditodechiloe").fadeTo("fast",0.2);
-    $("#fotopicaflorchico").fadeTo("fast",0.2);
-    $("#fotochercan").fadeTo("fast",0.2);
-    $("#fotochincol").fadeTo("fast",0.2);
-    $("#fotodiucadechiloe").fadeTo("fast",0.2);
-    $("#fototordo").fadeTo("fast",0.2);
-    $("#fotocernicalo").fadeTo("fast",0.2);
-    $("#fotoconcondechiloe").fadeTo("fast",0.2);
-    $("#fototorcaza").fadeTo("fast",0.2);
-    $("#fotochoroy").fadeTo("fast",0.2);
-    $("#fotopatocorrentino").fadeTo("fast",0.2);
-    $("#fotopilpilenaustral").fadeTo("fast",0.2);
-    $("#fototucuquere").fadeTo("fast",0.2);
-    $("#fotoaguilucho").fadeTo("fast",0.2);
-    $("#fototaguacomun").fadeTo("fast",0.2);
-    $("#fotocaranca").fadeTo("fast",0.2);
-    $("#fotoquetruvolador").fadeTo("fast",0.2);
-    $("#fotocormorandelasrocas").fadeTo("fast",0.2);
-    $("#fotobandurria").fadeTo("fast",0.2);
-    $("#fotoaguila").fadeTo("fast",0.2);
-    $("#fotohuala").fadeTo("fast",0.2);
-    $("#fotogarzacuca").fadeTo("fast",0.2);
-    $("#fotocondor").fadeTo("fast",0.2);
+    $("#fotorayaditodechiloe").css("fast",0.2);
+    $("#fotopicaflorchico").css("fast",0.2);
+    $("#fotochercan").css("fast",0.2);
+    $("#fotochincol").css("fast",0.2);
+    $("#fotodiucadechiloe").css("fast",0.2);
+    $("#fototordo").css("fast",0.2);
+    $("#fotocernicalo").css("fast",0.2);
+    $("#fotoconcondechiloe").css("fast",0.2);
+    $("#fototorcaza").css("fast",0.2);
+    $("#fotochoroy").css("fast",0.2);
+    $("#fotopatocorrentino").css("fast",0.2);
+    $("#fotopilpilenaustral").css("fast",0.2);
+    $("#fototucuquere").css("fast",0.2);
+    $("#fotoaguilucho").css("fast",0.2);
+    $("#fototaguacomun").css("fast",0.2);
+    $("#fotocaranca").css("fast",0.2);
+    $("#fotoquetruvolador").css("fast",0.2);
+    $("#fotocormorandelasrocas").css("fast",0.2);
+    $("#fotobandurria").css("fast",0.2);
+    $("#fotoaguila").css("fast",0.2);
+    $("#fotohuala").css("fast",0.2);
+    $("#fotogarzacuca").css("fast",0.2);
+    $("#fotocondor").css("fast",0.2);
   });
+
 
   $("#circulopumalin").click(function(){
-    $("#fotocachudito").fadeTo("fast",0.2);
-    $("#fotochercan").fadeTo("fast",0.2);
-    $("#fotochincol").fadeTo("fast",0.2);
-    $("#fotorayaditodechiloe").fadeTo("fast",0.2);
-    $("#fotohuethuet").fadeTo("fast",0.2);
-    $("#fototordo").fadeTo("fast",0.2);
-    $("#fotocernicalo").fadeTo("fast",0.2);
-    $("#fotoconcondechiloe").fadeTo("fast",0.2);
-    $("#fototorcaza").fadeTo("fast",0.2);
-    $("#fotochoroy").fadeTo("fast",0.2);
-    $("#fotopatocorrentino").fadeTo("fast",0.2);
-    $("#fotomartinpescador").fadeTo("fast",0.2);
-    $("#fotopilpilenaustral").fadeTo("fast",0.2);
-    $("#fototucuquere").fadeTo("fast",0.2);
-    $("#fotopatoreal").fadeTo("fast",0.2);
-    $("#fototaguacomun").fadeTo("fast",0.2);
-    $("#fotocaranca").fadeTo("fast",0.2);
-    $("#fotocaiquen").fadeTo("fast",0.2);
-    $("#fotoquetruvolador").fadeTo("fast",0.2);
-    $("#fotocormorandelasrocas").fadeTo("fast",0.2);
-    $("#fotohuala").fadeTo("fast",0.2);
-    $("#fotoaguila").fadeTo("fast",0.2);
-    $("#fotogarzacuca").fadeTo("fast",0.2);
+    $("#fotocachudito").css("fast",0.2);
+    $("#fotochercan").css("fast",0.2);
+    $("#fotochincol").css("fast",0.2);
+    $("#fotorayaditodechiloe").css("fast",0.2);
+    $("#fotohuethuet").css("fast",0.2);
+    $("#fototordo").css("fast",0.2);
+    $("#fotocernicalo").css("fast",0.2);
+    $("#fotoconcondechiloe").css("fast",0.2);
+    $("#fototorcaza").css("fast",0.2);
+    $("#fotochoroy").css("fast",0.2);
+    $("#fotopatocorrentino").css("fast",0.2);
+    $("#fotomartinpescador").css("fast",0.2);
+    $("#fotopilpilenaustral").css("fast",0.2);
+    $("#fototucuquere").css("fast",0.2);
+    $("#fotopatoreal").css("fast",0.2);
+    $("#fototaguacomun").css("fast",0.2);
+    $("#fotocaranca").css("fast",0.2);
+    $("#fotocaiquen").css("fast",0.2);
+    $("#fotoquetruvolador").css("fast",0.2);
+    $("#fotocormorandelasrocas").css("fast",0.2);
+    $("#fotohuala").css("fast",0.2);
+    $("#fotoaguila").css("fast",0.2);
+    $("#fotogarzacuca").css("fast",0.2);
   });
+
 
   $("#circulopuyehue").click(function(){
-    $("#fotocachudito").fadeTo("fast",0.2);
-    $("#fotopicaflorchico").fadeTo("fast",0.2);
-    $("#fotorayaditodechiloe").fadeTo("fast",0.2);
-    $("#fotochincol").fadeTo("fast",0.2);
-    $("#fotodiucadechiloe").fadeTo("fast",0.2);
-    $("#fototordo").fadeTo("fast",0.2);
-    $("#fotocernicalo").fadeTo("fast",0.2);
-    $("#fotoconcondechiloe").fadeTo("fast",0.2);
-    $("#fotomartinpescador").fadeTo("fast",0.2);
-    $("#fotopilpilenaustral").fadeTo("fast",0.2);
-    $("#fotocarpinteronegro").fadeTo("fast",0.2);
-    $("#fototucuquere").fadeTo("fast",0.2);
-    $("#fotopatoreal").fadeTo("fast",0.2);
-    $("#fototaguacomun").fadeTo("fast",0.2);
-    $("#fotopeuco").fadeTo("fast",0.2);
-    $("#fotocaranca").fadeTo("fast",0.2);
-    $("#fotocaiquen").fadeTo("fast",0.2);
-    $("#fotoquetruvolador").fadeTo("fast",0.2);
-    $("#fotocormorandelasrocas").fadeTo("fast",0.2);
-    $("#fotoaguila").fadeTo("fast",0.2);
-    $("#fotogarzacuca").fadeTo("fast",0.2);
+    $("#fotocachudito").css("fast",0.2);
+    $("#fotopicaflorchico").css("fast",0.2);
+    $("#fotorayaditodechiloe").css("fast",0.2);
+    $("#fotochincol").css("fast",0.2);
+    $("#fotodiucadechiloe").css("fast",0.2);
+    $("#fototordo").css("fast",0.2);
+    $("#fotocernicalo").css("fast",0.2);
+    $("#fotoconcondechiloe").css("fast",0.2);
+    $("#fotomartinpescador").css("fast",0.2);
+    $("#fotopilpilenaustral").css("fast",0.2);
+    $("#fotocarpinteronegro").css("fast",0.2);
+    $("#fototucuquere").css("fast",0.2);
+    $("#fotopatoreal").css("fast",0.2);
+    $("#fototaguacomun").css("fast",0.2);
+    $("#fotopeuco").css("fast",0.2);
+    $("#fotocaranca").css("fast",0.2);
+    $("#fotocaiquen").css("fast",0.2);
+    $("#fotoquetruvolador").css("fast",0.2);
+    $("#fotocormorandelasrocas").css("fast",0.2);
+    $("#fotoaguila").css("fast",0.2);
+    $("#fotogarzacuca").css("fast",0.2);
   });
+
+
 
   $("#circulovicenteperezrosales").click(function(){
-    $("#fotocachudito").fadeTo("fast",0.2);
-    $("#fotochercan").fadeTo("fast",0.2);
-    $("#fotochincol").fadeTo("fast",0.2);
-    $("#fotodiucadechiloe").fadeTo("fast",0.2);
-    $("#fotohuethuet").fadeTo("fast",0.2);
-    $("#fototordo").fadeTo("fast",0.2);
-    $("#fotocernicalo").fadeTo("fast",0.2);
-    $("#fotoconcondechiloe").fadeTo("fast",0.2);
-    $("#fototorcaza").fadeTo("fast",0.2);
-    $("#fotochoroy").fadeTo("fast",0.2);
-    $("#fotomartinpescador").fadeTo("fast",0.2);
-    $("#fotopilpilenaustral").fadeTo("fast",0.2);
-    $("#fototucuquere").fadeTo("fast",0.2);
-    $("#fotopatoreal").fadeTo("fast",0.2);
-    $("#fotopeuco").fadeTo("fast",0.2);
-    $("#fotohuala").fadeTo("fast",0.2);
-    $("#fotocaranca").fadeTo("fast",0.2);
-    $("#fotocaiquen").fadeTo("fast",0.2);
-    $("#fotoquetruvolador").fadeTo("fast",0.2);
-    $("#fotocormorandelasrocas").fadeTo("fast",0.2);
-    $("#fotobandurria").fadeTo("fast",0.2);
-    $("#fotoaguilucho").fadeTo("fast",0.2);
-    $("#fotogarzacuca").fadeTo("fast",0.2);
-    $("#fotocondor").fadeTo("fast",0.2);
+    $("#fotocachudito").css("fast",0.2);
+    $("#fotochercan").css("fast",0.2);
+    $("#fotochincol").css("fast",0.2);
+    $("#fotodiucadechiloe").css("fast",0.2);
+    $("#fotohuethuet").css("fast",0.2);
+    $("#fototordo").css("fast",0.2);
+    $("#fotocernicalo").css("fast",0.2);
+    $("#fotoconcondechiloe").css("fast",0.2);
+    $("#fototorcaza").css("fast",0.2);
+    $("#fotochoroy").css("fast",0.2);
+    $("#fotomartinpescador").css("fast",0.2);
+    $("#fotopilpilenaustral").css("fast",0.2);
+    $("#fototucuquere").css("fast",0.2);
+    $("#fotopatoreal").css("fast",0.2);
+    $("#fotopeuco").css("fast",0.2);
+    $("#fotohuala").css("fast",0.2);
+    $("#fotocaranca").css("fast",0.2);
+    $("#fotocaiquen").css("fast",0.2);
+    $("#fotoquetruvolador").css("fast",0.2);
+    $("#fotocormorandelasrocas").css("fast",0.2);
+    $("#fotobandurria").css("fast",0.2);
+    $("#fotoaguilucho").css("fast",0.2);
+    $("#fotogarzacuca").css("fast",0.2);
+    $("#fotocondor").css("fast",0.2);
   });
 
+
   $("#circulocorcovado").click(function(){
-    $("#fotocachudito").fadeTo("fast",0.2);
-    $("#fotopicaflorchico").fadeTo("fast",0.2);
-    $("#fotochercan").fadeTo("fast",0.2);
-    $("#fotochincol").fadeTo("fast",0.2);
-    $("#fotodiucadechiloe").fadeTo("fast",0.2);
-    $("#fotorayaditodechiloe").fadeTo("fast",0.2);
-    $("#fotohuethuet").fadeTo("fast",0.2);
-    $("#fototordo").fadeTo("fast",0.2);
-    $("#fotocernicalo").fadeTo("fast",0.2);
-    $("#fotoconcondechiloe").fadeTo("fast",0.2);
-    $("#fototorcaza").fadeTo("fast",0.2);
-    $("#fotochoroy").fadeTo("fast",0.2);
-    $("#fotopatocorrentino").fadeTo("fast",0.2);
-    $("#fotomartinpescador").fadeTo("fast",0.2);
-    $("#fotopilpilenaustral").fadeTo("fast",0.2);
-    $("#fotoaguilucho").fadeTo("fast",0.2);
-    $("#fototaguacomun").fadeTo("fast",0.2);
-    $("#fototucuquere").fadeTo("fast",0.2);
-    $("#fotopatoreal").fadeTo("fast",0.2);
-    $("#fotohuala").fadeTo("fast",0.2);
-    $("#fotopeuco").fadeTo("fast",0.2);
-    $("#fotocaranca").fadeTo("fast",0.2);
-    $("#fotocaiquen").fadeTo("fast",0.2);
-    $("#fotoquetruvolador").fadeTo("fast",0.2);
-    $("#fotocormorandelasrocas").fadeTo("fast",0.2);
-    $("#fotobandurria").fadeTo("fast",0.2);
-    $("#fotoaguila").fadeTo("fast",0.2);
-    $("#fotogarzacuca").fadeTo("fast",0.2);
-    $("#fotocondor").fadeTo("fast",0.2);
+    $("#fotocachudito").css("fast",0.2);
+    $("#fotopicaflorchico").css("fast",0.2);
+    $("#fotochercan").css("fast",0.2);
+    $("#fotochincol").css("fast",0.2);
+    $("#fotodiucadechiloe").css("fast",0.2);
+    $("#fotorayaditodechiloe").css("fast",0.2);
+    $("#fotohuethuet").css("fast",0.2);
+    $("#fototordo").css("fast",0.2);
+    $("#fotocernicalo").css("fast",0.2);
+    $("#fotoconcondechiloe").css("fast",0.2);
+    $("#fototorcaza").css("fast",0.2);
+    $("#fotochoroy").css("fast",0.2);
+    $("#fotopatocorrentino").css("fast",0.2);
+    $("#fotomartinpescador").css("fast",0.2);
+    $("#fotopilpilenaustral").css("fast",0.2);
+    $("#fotoaguilucho").css("fast",0.2);
+    $("#fototaguacomun").css("fast",0.2);
+    $("#fototucuquere").css("fast",0.2);
+    $("#fotopatoreal").css("fast",0.2);
+    $("#fotohuala").css("fast",0.2);
+    $("#fotopeuco").css("fast",0.2);
+    $("#fotocaranca").css("fast",0.2);
+    $("#fotocaiquen").css("fast",0.2);
+    $("#fotoquetruvolador").css("fast",0.2);
+    $("#fotocormorandelasrocas").css("fast",0.2);
+    $("#fotobandurria").css("fast",0.2);
+    $("#fotoaguila").css("fast",0.2);
+    $("#fotogarzacuca").css("fast",0.2);
+    $("#fotocondor").css("fast",0.2);
   });
 
   $("#circuloalerceandino").click(function(){
-    $("#fotopicaflorchico").fadeTo("fast",0.2);
-    $("#fotochercan").fadeTo("fast",0.2);
-    $("#fotochincol").fadeTo("fast",0.2);
-    $("#fotorayaditodechiloe").fadeTo("fast",0.2);
-    $("#fotodiucadechiloe").fadeTo("fast",0.2);
-    $("#fototordo").fadeTo("fast",0.2);
-    $("#fotocernicalo").fadeTo("fast",0.2);
-    $("#fotoconcondechiloe").fadeTo("fast",0.2);
-    $("#fotochoroy").fadeTo("fast",0.2);
-    $("#fotopatocorrentino").fadeTo("fast",0.2);
-    $("#fotomartinpescador").fadeTo("fast",0.2);
-    $("#fotopilpilenaustral").fadeTo("fast",0.2);
-    $("#fototucuquere").fadeTo("fast",0.2);
-    $("#fotoaguilucho").fadeTo("fast",0.2);
-    $("#fototaguacomun").fadeTo("fast",0.2);
-    $("#fotocaranca").fadeTo("fast",0.2);
-    $("#fotoquetruvolador").fadeTo("fast",0.2);
-    $("#fotocormorandelasrocas").fadeTo("fast",0.2);
-    $("#fotobandurria").fadeTo("fast",0.2);
-    $("#fotoaguila").fadeTo("fast",0.2);
-    $("#fotogarzacuca").fadeTo("fast",0.2);
-    $("#fotohuala").fadeTo("fast",0.2);
+    $("#fotopicaflorchico").css("fast",0.2);
+    $("#fotochercan").css("fast",0.2);
+    $("#fotochincol").css("fast",0.2);
+    $("#fotorayaditodechiloe").css("fast",0.2);
+    $("#fotodiucadechiloe").css("fast",0.2);
+    $("#fototordo").css("fast",0.2);
+    $("#fotocernicalo").css("fast",0.2);
+    $("#fotoconcondechiloe").css("fast",0.2);
+    $("#fotochoroy").css("fast",0.2);
+    $("#fotopatocorrentino").css("fast",0.2);
+    $("#fotomartinpescador").css("fast",0.2);
+    $("#fotopilpilenaustral").css("fast",0.2);
+    $("#fototucuquere").css("fast",0.2);
+    $("#fotoaguilucho").css("fast",0.2);
+    $("#fototaguacomun").css("fast",0.2);
+    $("#fotocaranca").css("fast",0.2);
+    $("#fotoquetruvolador").css("fast",0.2);
+    $("#fotocormorandelasrocas").css("fast",0.2);
+    $("#fotobandurria").css("fast",0.2);
+    $("#fotoaguila").css("fast",0.2);
+    $("#fotogarzacuca").css("fast",0.2);
+    $("#fotohuala").css("fast",0.2);
   });
 
+
   $("#circulochiloe").click(function(){
-    $("#fotocachudito").fadeTo("fast",0.2);
-    $("#fotopicaflorchico").fadeTo("fast",0.2);
-    $("#fotochercan").fadeTo("fast",0.2);
-    $("#fotochincol").fadeTo("fast",0.2);
-    $("#fotohuethuet").fadeTo("fast",0.2);
-    $("#fototordo").fadeTo("fast",0.2);
-    $("#fototorcaza").fadeTo("fast",0.2);
-    $("#fotochoroy").fadeTo("fast",0.2);
-    $("#fotopatocorrentino").fadeTo("fast",0.2);
-    $("#fotomartinpescador").fadeTo("fast",0.2);
-    $("#fotoaguilucho").fadeTo("fast",0.2);
-    $("#fototucuquere").fadeTo("fast",0.2);
-    $("#fotopatoreal").fadeTo("fast",0.2);
-    $("#fotopeuco").fadeTo("fast",0.2);
-    $("#fotocaiquen").fadeTo("fast",0.2);
-    $("#fotoquetruvolador").fadeTo("fast",0.2);
-    $("#fotobandurria").fadeTo("fast",0.2);
-    $("#fotoaguila").fadeTo("fast",0.2);
-    $("#fotohuala").fadeTo("fast",0.2);
-    $("#fotocondor").fadeTo("fast",0.2);
+    $("#fotocachudito").css("fast",0.2);
+    $("#fotopicaflorchico").css("fast",0.2);
+    $("#fotochercan").css("fast",0.2);
+    $("#fotochincol").css("fast",0.2);
+    $("#fotohuethuet").css("fast",0.2);
+    $("#fototordo").css("fast",0.2);
+    $("#fototorcaza").css("fast",0.2);
+    $("#fotochoroy").css("fast",0.2);
+    $("#fotopatocorrentino").css("fast",0.2);
+    $("#fotomartinpescador").css("fast",0.2);
+    $("#fotoaguilucho").css("fast",0.2);
+    $("#fototucuquere").css("fast",0.2);
+    $("#fotopatoreal").css("fast",0.2);
+    $("#fotopeuco").css("fast",0.2);
+    $("#fotocaiquen").css("fast",0.2);
+    $("#fotoquetruvolador").css("fast",0.2);
+    $("#fotobandurria").css("fast",0.2);
+    $("#fotoaguila").css("fast",0.2);
+    $("#fotohuala").css("fast",0.2);
+    $("#fotocondor").css("fast",0.2);
   });
 
   $("#circulohornopiren").click(function(){
-    $("#fotocachudito").fadeTo("fast",0.2);
-    $("#fotopicaflorchico").fadeTo("fast",0.2);
-    $("#fotochercan").fadeTo("fast",0.2);
-    $("#fotochincol").fadeTo("fast",0.2);
-    $("#fotorayaditodechiloe").fadeTo("fast",0.2);
-    $("#fotodiucadechiloe").fadeTo("fast",0.2);
-    $("#fotohuethuet").fadeTo("fast",0.2);
-    $("#fototordo").fadeTo("fast",0.2);
-    $("#fotocernicalo").fadeTo("fast",0.2);
-    $("#fototorcaza").fadeTo("fast",0.2);
-    $("#fotochoroy").fadeTo("fast",0.2);
-    $("#fotopatocorrentino").fadeTo("fast",0.2);
-    $("#fotomartinpescador").fadeTo("fast",0.2);
-    $("#fotoaguilucho").fadeTo("fast",0.2);
-    $("#fototucuquere").fadeTo("fast",0.2);
-    $("#fotopatoreal").fadeTo("fast",0.2);
-    $("#fotopeuco").fadeTo("fast",0.2);
-    $("#fotocaiquen").fadeTo("fast",0.2);
-    $("#fotocaranca").fadeTo("fast",0.2);
-    $("#fotocormorandelasrocas").fadeTo("fast",0.2);
-    $("#fotogarzacuca").fadeTo("fast",0.2);
-    $("#fotobandurria").fadeTo("fast",0.2);
-    $("#fotoaguila").fadeTo("fast",0.2);
-    $("#fotohuala").fadeTo("fast",0.2);
-  });  
+    $("#fotocachudito").css("fast",0.2);
+    $("#fotopicaflorchico").css("fast",0.2);
+    $("#fotochercan").css("fast",0.2);
+    $("#fotochincol").css("fast",0.2);
+    $("#fotorayaditodechiloe").css("fast",0.2);
+    $("#fotodiucadechiloe").css("fast",0.2);
+    $("#fotohuethuet").css("fast",0.2);
+    $("#fototordo").css("fast",0.2);
+    $("#fotocernicalo").css("fast",0.2);
+    $("#fototorcaza").css("fast",0.2);
+    $("#fotochoroy").css("fast",0.2);
+    $("#fotopatocorrentino").css("fast",0.2);
+    $("#fotomartinpescador").css("fast",0.2);
+    $("#fotoaguilucho").css("fast",0.2);
+    $("#fototucuquere").css("fast",0.2);
+    $("#fotopatoreal").css("fast",0.2);
+    $("#fotopeuco").css("fast",0.2);
+    $("#fotocaiquen").css("fast",0.2);
+    $("#fotocaranca").css("fast",0.2);
+    $("#fotocormorandelasrocas").css("fast",0.2);
+    $("#fotogarzacuca").css("fast",0.2);
+    $("#fotobandurria").css("fast",0.2);
+    $("#fotoaguila").css("fast",0.2);
+    $("#fotohuala").css("fast",0.2);
+  }); 
 })

@@ -91,6 +91,13 @@ body{
   background-color: #BBF1FA;
 }
 
+#divextra{
+  width: 300px;
+  position: absolute;
+  top: 65%;
+  left: 75%;
+  transform: translate(-75%, -65%);
+}
 .textopajaro{
   font-family:Verdana;
   font-size: 12px;
@@ -120,7 +127,7 @@ body{
 }
 
 
-#circulolagunadellaja {
+.circulolagunadellaja {
   width: 10px;
   height: 10px;
   -moz-border-radius: 50%;
