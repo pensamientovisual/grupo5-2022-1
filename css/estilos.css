@@ -1,319 +1,316 @@
 #titulo{
-    height: 350px;
-    position: absolute;
-    top: 50%;
-    left: -8%;
-    transform: translate(-8%, -50%);
-    height: 350px;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: -8%;
+  transform: translate(-8%, -50%);
+  height: 350px;
 }
 #mapa{
-    height: 350px;
-    position: absolute;
-    top: 50%;
-    left: 95%;
-    transform: translate(-95%, -50%);
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(-95%, -50%);
 }
 .fotopajaro{
-    height: 100px;
-    opacity: 60%;
-}
-
-#pin{
-  height: 10px;
+  height: 100px;
+  opacity: 60%;
 }
 
 #dprincipal{
-    width: 900px;
-    height: 350px;
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  width: 900px;
+  height: 350px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #instrucciones{
-  position:absolute;
-  top: 80%;
-  left: 58%;
-  transform: translate(-58%, -80%);
+position:absolute;
+top: 80%;
+left: 58%;
+transform: translate(-58%, -80%);
 }
 
 .info{
-    width: 600px;
-    height: 350px;
-    position: absolute;
-    top: 50%;
-    left: 32.5%;
-    transform: translate(-32.5%, -50%);
+  width: 600px;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 32.5%;
+  transform: translate(-32.5%, -50%);
 }
 
 .daudio{
-    position: absolute;
-    top: 90%;
-    left: 90%;
-    transform: translate(-90%, -90%);
+  position: absolute;
+  top: 90%;
+  left: 90%;
+  transform: translate(-90%, -90%);
 }
 
 #darriba{
-    display: flex;
-    flex-direction: line;
-    position: absolute;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%, -5%);
+  display: flex;
+  flex-direction: line;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -5%);
 }
 
 #dderecha{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 50%;
-    left: 97.5%;
-    transform: translate(-97.5%, -50%);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 97.5%;
+  transform: translate(-97.5%, -50%);
 }
 
 #dabajo{
-    display: flex;
-    flex-direction: line;
-    position: absolute;
-    top: 95%;
-    left: 50%;
-    transform: translate(-50%, -95%);
+  display: flex;
+  flex-direction: line;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -95%);
 }
 
 #dizquierda{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 50%;
-    left: 2.5%;
-    transform: translate(-2.5%, -50%);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 2.5%;
+  transform: translate(-2.5%, -50%);
 }
 
 body{
-    background-color: #BBF1FA;
+  background-color: #BBF1FA;
 }
 
 .textopajaro{
-    font-family:Verdana;
-    font-size: 12px;
-    color:#663F3F;
+  font-family:Verdana;
+  font-size: 12px;
+  color:#663F3F;
 
 }
 
 .textomapa{
-    font-family:Verdana;
-    font-size: 12px;
-    color:#663F3F;
+  font-family:Verdana;
+  font-size: 10px;
+  color:#663F3F;
 
 }
 .titulopajaro{
-    font-family:Verdana;
-    font-size: 22px;
-    color:#51C2D5;
-    letter-spacing: 6px;
-    background-color: aliceblue;
+  font-family:Verdana;
+  font-size: 22px;
+  color:#51C2D5;
+  letter-spacing: 6px;
+  background-color: aliceblue;
 }
 
 .enlace{
-    font-family:Verdana;
-    font-size: 11px;
-    color:#663F3F;
-    line-height: 1px;
-  }
+  font-family:Verdana;
+  font-size: 11px;
+  color:#663F3F;
+  line-height: 1px;
+}
 
-  #circulolagunadellaja {
-    height: 10px;
-    height: 10px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background: #ec4646;
-    position: absolute;
-    top: 50%;
-    left: 95%;
-    transform: translate(1800%, -1100%)
-  }
-  
-  #circulononguen {
-    width: 10px;
-    height: 10px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background: #ec4646;
-    position: absolute;
-    top: 50%;
-    left: 95%;
-    transform: translate(1450%, -1200%);
-  }
-  
-  #circulohuerquehue {
-    width: 10px;
-    height: 10px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background: #ec4646;
-    position: absolute;
-    top: 50%;
-    left: 95%;
-    transform: translate(1800%, -140%);
-  }
-  
-  #circulovillarrica {
-    width: 10px;
-    height: 10px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background: #ec4646;
-    position: absolute;
-    top: 50%;
-    left: 95%;
-    transform: translate(1800%, -270%);
-  }
-  
-  #circulonahuelbuta {
-    width: 10px;
-    height: 10px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background: #ec4646;
-    position: absolute;
-    top: 50%;
-    left: 95%;
-    transform: translate(1350%, -900%);
-  }
-  
-  #circuloconguillio {
-    width: 10px;
-    height: 10px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background: #ec4646;
-    position: absolute;
-    top: 50%;
-    left: 95%;
-    transform: translate(1700%, -500%);
-  }
-  
-  #circulotolhuaca {
-    width: 10px;
-    height: 10px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background: #ec4646;
-    position: absolute;
-    top: 50%;
-    left: 95%;
-    transform: translate(1800%, -700%);
-  }
-  
-  #circuloalercecostero {
-    width: 10px;
-    height: 10px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background: #ec4646;
-    position: absolute;
-    top: 50%;
-    left: 95%;
-    transform: translate(1400%, -100%);
-  }
-  
-  #circulopumalin {
-    width: 10px;
-    height: 10px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background: #ec4646;
-    position: absolute;
-    top: 50%;
-    left: 95%;
-    transform: translate(1700%, 1200%);
-  }
 
-  #circulopuyehue {
-    width: 10px;
-    height: 10px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background: #ec4646;
-    position: absolute;
-    top: 50%;
-    left: 95%;
-    transform: translate(1700%, 180%);
-  }
-  
-  #circulovicenteperezrosales {
-    width: 10px;
-    height: 10px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background: #ec4646;
-    position: absolute;
-    top: 50%;
-    left: 95%;
-    transform: translate(1500%, 400%);
-  }
+#circulolagunadellaja {
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #ec4646;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(1800%, -1100%);
+}
 
-  #circulocorcovado {
-    width: 10px;
-    height: 10px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background: #ec4646;
-    position: absolute;
-    top: 50%;
-    left: 95%;
-    transform: translate(1700%, 1300%);
-  }
+#circulononguen {
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #ec4646;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(1450%, -1200%);
+}
 
-  #circuloalerceandino {
-    width: 10px;
-    height: 10px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background: #ec4646;
-    position: absolute;
-    top: 50%;
-    left: 95%;
-    transform: translate(1660%, 600%);
-  }
+#circulohuerquehue {
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #ec4646;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(1800%, -140%);
+}
 
-  #circulochiloe {
-    width: 10px;
-    height: 10px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background: #ec4646;
-    position: absolute;
-    top: 50%;
-    left: 95%;
-    transform: translate(1200%, 1300%);
-  }
+#circulovillarrica {
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #ec4646;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(1800%, -270%);
+}
 
-  #circulohornopiren {
-    width: 10px;
-    height: 10px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background: #ec4646;
-    position: absolute;
-    top: 50%;
-    left: 95%;
-    transform: translate(1700%, 950%);
-  }
+#circulonahuelbuta {
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #ec4646;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(1350%, -900%);
+}
+
+#circuloconguillio {
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #ec4646;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(1700%, -500%);
+}
+
+#circulotolhuaca {
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #ec4646;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(1800%, -700%);
+}
+
+#circuloalercecostero {
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #ec4646;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(1400%, -100%);
+}
+
+#circulopumalin {
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #ec4646;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(1700%, 1200%);
+}
+
+#circulopuyehue {
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #ec4646;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(1700%, 180%);
+}
+
+#circulovicenteperezrosales {
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #ec4646;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(1500%, 400%);
+}
+
+#circulocorcovado {
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #ec4646;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(1700%, 1300%);
+}
+
+#circuloalerceandino {
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #ec4646;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(1660%, 600%);
+}
+
+#circulochiloe {
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #ec4646;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(1200%, 1300%);
+}
+
+#circulohornopiren {
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #ec4646;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(1700%, 950%);
+}
