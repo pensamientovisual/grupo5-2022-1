@@ -47,8 +47,8 @@
 .daudio{
     position: absolute;
     top: 90%;
-    left: 80%;
-    transform: translate(-80%, -90%);
+    left: 90%;
+    transform: translate(-90%, -90%);
 }
 
 #darriba{
