@@ -15,7 +15,7 @@
 }
 .fotopajaro{
   height: 100px;
-  opacity: 60%;
+  opacity: 100%;
 }
 
 #dprincipal{
@@ -28,11 +28,11 @@
   transform: translate(-50%, -50%);
 }
 
-#instrucciones{
+#simbologia{
 position:absolute;
-top: 80%;
-left: 58%;
-transform: translate(-58%, -80%);
+top: 50%;
+left: 60%;
+transform: translate(-60%, -50%);
 }
 
 .info{
@@ -114,9 +114,127 @@ body{
 .titulopajaro{
   font-family:Verdana;
   font-size: 22px;
-  color:#51C2D5;
   letter-spacing: 6px;
-  background-color: aliceblue;
+}
+
+#titulocondor{
+  color: #EC4646;
+}
+
+#titulogarzacuca{
+  color: #007355;
+}
+
+#titulohuala{
+  color: #BBF1FA;
+}
+
+#tituloaguila{
+  color: #BBF1FA;
+}
+
+#titulobandurria{
+  color: #BBF1FA;
+}
+
+#titulocormoran{
+  color: #BBF1FA;
+}
+
+#tituloquetru{
+  color: #EC4646;
+}
+
+#titulocaiquen{
+  color: #EC4646;
+}
+
+#titulocaranca{
+  color: #BBF1FA;
+}
+
+#titulopeuco{
+  color: #EC4646;
+}
+
+#titulotagua{
+  color: #BBF1FA;
+}
+
+#tituloaguilucho{
+  color: #007355;
+}
+
+#titulopatoreal{
+  color: #BBF1FA;
+}
+
+#titulotucuquere{
+  color: #BBF1FA;
+}
+
+#titulocarpintero{
+  color: #EC4646;
+}
+
+#titulopilpilen{
+  color: #BBF1FA;
+}
+
+#titulomartinpescador{
+  color: #007355;
+}
+
+#titulopatocorrentino{
+  color: #EC4646;
+}
+
+#titulochoroy{
+  color: #BBF1FA;
+}
+
+#titulotorcaza{
+  color: #007355;
+}
+
+#tituloconcon{
+  color: #EC4646;
+}
+
+#titulocernicalo{
+  color: #BBF1FA;
+}
+
+#titulotordo{
+  color: #BBF1FA;
+}
+
+#titulohuethuet{
+  color: #EC4646;
+}
+
+#titulodiuca{
+  color: #BBF1FA;
+}
+
+#titulochincol{
+  color: #BBF1FA;
+}
+
+#titulorayadito{
+  color: #BBF1FA;
+}
+
+#titulochercan{
+  color: #007355;
+}
+
+#titulopicaflor{
+  color: #EC4646;
+}
+
+#titulocachudito{
+  color: #BBF1FA;
 }
 
 .enlace{
@@ -140,7 +258,7 @@ body{
   transform: translate(1800%, -1100%);
 }
 
-#circulononguen {
+.circulononguen {
   width: 10px;
   height: 10px;
   -moz-border-radius: 50%;
@@ -153,7 +271,7 @@ body{
   transform: translate(1450%, -1200%);
 }
 
-#circulohuerquehue {
+.circulohuerquehue {
   width: 10px;
   height: 10px;
   -moz-border-radius: 50%;
@@ -166,7 +284,7 @@ body{
   transform: translate(1800%, -140%);
 }
 
-#circulovillarrica {
+.circulovillarrica {
   width: 10px;
   height: 10px;
   -moz-border-radius: 50%;
@@ -179,7 +297,7 @@ body{
   transform: translate(1800%, -270%);
 }
 
-#circulonahuelbuta {
+.circulonahuelbuta {
   width: 10px;
   height: 10px;
   -moz-border-radius: 50%;
@@ -192,7 +310,7 @@ body{
   transform: translate(1350%, -900%);
 }
 
-#circuloconguillio {
+.circuloconguillio {
   width: 10px;
   height: 10px;
   -moz-border-radius: 50%;
@@ -205,7 +323,7 @@ body{
   transform: translate(1700%, -500%);
 }
 
-#circulotolhuaca {
+.circulotolhuaca {
   width: 10px;
   height: 10px;
   -moz-border-radius: 50%;
@@ -218,7 +336,7 @@ body{
   transform: translate(1800%, -700%);
 }
 
-#circuloalercecostero {
+.circuloalercecostero {
   width: 10px;
   height: 10px;
   -moz-border-radius: 50%;
@@ -231,7 +349,7 @@ body{
   transform: translate(1400%, -100%);
 }
 
-#circulopumalin {
+.circulopumalin {
   width: 10px;
   height: 10px;
   -moz-border-radius: 50%;
@@ -244,7 +362,7 @@ body{
   transform: translate(1700%, 1200%);
 }
 
-#circulopuyehue {
+.circulopuyehue {
   width: 10px;
   height: 10px;
   -moz-border-radius: 50%;
@@ -257,7 +375,7 @@ body{
   transform: translate(1700%, 180%);
 }
 
-#circulovicenteperezrosales {
+.circulovicenteperezrosales {
   width: 10px;
   height: 10px;
   -moz-border-radius: 50%;
@@ -270,7 +388,7 @@ body{
   transform: translate(1500%, 400%);
 }
 
-#circulocorcovado {
+.circulocorcovado {
   width: 10px;
   height: 10px;
   -moz-border-radius: 50%;
@@ -283,7 +401,7 @@ body{
   transform: translate(1700%, 1300%);
 }
 
-#circuloalerceandino {
+.circuloalerceandino {
   width: 10px;
   height: 10px;
   -moz-border-radius: 50%;
@@ -296,7 +414,7 @@ body{
   transform: translate(1660%, 600%);
 }
 
-#circulochiloe {
+.circulochiloe {
   width: 10px;
   height: 10px;
   -moz-border-radius: 50%;
@@ -309,7 +427,7 @@ body{
   transform: translate(1200%, 1300%);
 }
 
-#circulohornopiren {
+.circulohornopiren {
   width: 10px;
   height: 10px;
   -moz-border-radius: 50%;

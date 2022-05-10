@@ -15,9 +15,7 @@
         <div id="dprincipal">
             <img id="titulo" src="img\titulorojo3.0.svg" alt="Titulo">
             <img id="mapa" src="img\mapacafe.svg" alt="Mapa">
-            <div>
-                <p id="instrucciones">Presiona el ave que deseas conocer</p>
-            </div>
+            <img id="simbologia" src="img\Simbología cortada.png" alt="simbología" height="300">
         </div>
 
         <div id="darriba">
@@ -165,7 +163,7 @@
         </div>
 
         <div style="display: none" class="info" id="condor">
-            <h1 class="titulopajaro">Cóndor:</h1>
+            <h1 class="titulopajaro" id="titulocondor">Cóndor:</h1>
             <p class="textopajaro">Ave voladora más grande de Chile <br>
             <strong>Tamaño:</strong> 120 cm. de longitud y hasta 3 mts de envergadura (tamaño con las alas extendidas)<br>
             <strong>Hábitat:</strong> altas montañas, hasta los 5000 metros de altitud. Ave voladora más grande de Chile
@@ -184,13 +182,13 @@
             </ul>
             
             <div class="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
-            <div id="circulohuerquehue"><p class="textomapa">Huerquehue</p></div>
-            <div id="circulotolhuaca"><p class="textomapa">Tolhuaca</p></div>
-            <div id="circuloconguillio"><p class="textomapa">Conguillio</p></div>
-            <div id="circulopumalin"><p class="textomapa">Pumalin</p></div>
-            <div id="circulopuyehue"><p class="textomapa">Puyehue</p></div>
-            <div id="circuloalerceandino"><p class="textomapa">Alerce Andino</p></div>
-            <div id="circulohornopiren"><p class="textomapa">Hornopirén</p></div>
+            <div class="circulohuerquehue"><p class="textomapa">Huerquehue</p></div>
+            <div class="circulotolhuaca"><p class="textomapa">Tolhuaca</p></div>
+            <div class="circuloconguillio"><p class="textomapa">Conguillio</p></div>
+            <div class="circulopumalin"><p class="textomapa">Pumalin</p></div>
+            <div class="circulopuyehue"><p class="textomapa">Puyehue</p></div>
+            <div class="circuloalerceandino"><p class="textomapa">Alerce Andino</p></div>
+            <div class="circulohornopiren"><p class="textomapa">Hornopirén</p></div>
             
             <div class="daudio">
                 <audio id="audiocondor" controls>
@@ -199,7 +197,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="carpintero"><h1 class="titulopajaro">Carpintero negro</h1><p class="textopajaro">Muy difícil de confundir dado su color y tamaño, realiza un sonido muy fuerte que es reconocible<br>
+        <div style="display: none" class="info" id="carpintero"><h1 class="titulopajaro" id="titulocarpintero">Carpintero negro</h1><p class="textopajaro">Muy difícil de confundir dado su color y tamaño, realiza un sonido muy fuerte que es reconocible<br>
             <strong>Tamaño:</strong> 44-46 cm de largo<br>
             <strong>Hábitat:</strong> zonas de bosque nativo, hasta 2000 msnm
             <br><strong>¿Cómo reconocerlo?</strong><br>Cuerpo negro, pico largo. Sus alas son blancas por abajo
@@ -226,17 +224,17 @@
             </div>
 
             <div class="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
-            <div id="circulohuerquehue"><p class="textomapa">Huerquehue</p></div>
-            <div id="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
-            <div id="circulotolhuaca"><p class="textomapa">Tolhuaca</p></div>
-            <div id="circuloconguillio"><p class="textomapa">Conguillio</p></div>
-            <div id="circuloalercecostero"><p class="textomapa">Alerce Costero</p></div>
-            <div id="circulopumalin"><p class="textomapa">Pumalin</p></div>
-            <div id="circulopuyehue"><p class="textomapa">Puyehue</p></div>
-            <div id="circulovicenteperezrosales"><p class="textomapa">Vicente Peréz Rosales</p></div>
-            <div id="circuloalerceandino"><p class="textomapa">Alerce Andino</p></div>
-            <div id="circulochiloe"><p class="textomapa">Chiloé</p></div>
-            <div id="circulohornopiren"><p class="textomapa">Hornopirén</p></div>
+            <div class="circulohuerquehue"><p class="textomapa">Huerquehue</p></div>
+            <div class="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
+            <div class="circulotolhuaca"><p class="textomapa">Tolhuaca</p></div>
+            <div class="circuloconguillio"><p class="textomapa">Conguillio</p></div>
+            <div class="circuloalercecostero"><p class="textomapa">Alerce Costero</p></div>
+            <div class="circulopumalin"><p class="textomapa">Pumalin</p></div>
+            <div class="circulopuyehue"><p class="textomapa">Puyehue</p></div>
+            <div class="circulovicenteperezrosales"><p class="textomapa">Vicente Peréz Rosales</p></div>
+            <div class="circuloalerceandino"><p class="textomapa">Alerce Andino</p></div>
+            <div class="circulochiloe"><p class="textomapa">Chiloé</p></div>
+            <div class="circulohornopiren"><p class="textomapa">Hornopirén</p></div>
             
             <div class="daudio">
                 <audio id="audiocarpinteronegro" controls>
@@ -245,7 +243,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="huethuet"><h1 class="titulopajaro">Huet Huet: </h1><p class="textopajaro">Muy difíciles de ver, incluso cuando se ha escuchado su ruido. Posee tres tipos de cantos<br>
+        <div style="display: none" class="info" id="huethuet"><h1 class="titulopajaro" id="titulohuethuet">Huet Huet: </h1><p class="textopajaro">Muy difíciles de ver, incluso cuando se ha escuchado su ruido. Posee tres tipos de cantos<br>
             <strong>Tamaño:</strong> 25 cm de largo<br>
             <strong>Hábitat:</strong> espesuras de las grandes selvas y bosques
             <br><strong>¿Cómo reconocerlo?</strong><br>Posee el pico y las patas negras, la cabeza y el pecho gris oscuro.  Plumaje en tonos rojizos en el abdomen, la corona y parte de la cola.
@@ -260,12 +258,12 @@
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-alerce-andino/" target="_blank" class="enlace" >"Parque Nacional Alerce Andino"</a></li>
             </ul>
         
-            <div id="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
-            <div id="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
-            <div id="circuloconguillio"><p class="textomapa">Conguillio</p></div>
-            <div id="circuloalercecostero"><p class="textomapa">Alerce Costero</p></div>
-            <div id="circulopuyehue"><p class="textomapa">Puyehue</p></div>
-            <div id="circuloalerceandino"><p class="textomapa">Alerce Andino</p></div>
+            <div class="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
+            <div class="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
+            <div class="circuloconguillio"><p class="textomapa">Conguillio</p></div>
+            <div class="circuloalercecostero"><p class="textomapa">Alerce Costero</p></div>
+            <div class="circulopuyehue"><p class="textomapa">Puyehue</p></div>
+            <div class="circuloalerceandino"><p class="textomapa">Alerce Andino</p></div>
             
             <div class="daudio">
                 <audio id="audiohuethuet" controls>
@@ -274,7 +272,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="martinpescador"><h1 class="titulopajaro">Martín Pescador: </h1><p class="textopajaro">Fácil de identificar, en general se encuentra en ramas de árboles esperando para que un pez se acerque a la superficie y pueda capturarlo<br>
+        <div style="display: none" class="info" id="martinpescador"><h1 class="titulopajaro" id="titulomartinpescador">Martín Pescador: </h1><p class="textopajaro">Fácil de identificar, en general se encuentra en ramas de árboles esperando para que un pez se acerque a la superficie y pueda capturarlo<br>
             <strong>Tamaño:</strong> Longitud de 43 - 45 cm<br>
             <strong>Hábitat:</strong> Lagos, lagunas, tranques, esteros, ríos. En general, en aguas tranquilas rodeadas de árboles
             <br><strong>¿Cómo reconocerlo?</strong><br>Posee un plumaje multicolor. Pico negro y puntiagudo. Cabeza grande color azul, lados del cuello blanco, cola más oscura con líneas transversales blancas
@@ -287,11 +285,11 @@
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-alerce-andino/" target="_blank" class="enlace" >"Parque Nacional Alerce Andino"</a></li>
             </ul>
         
-            <div id="circulotolhuaca"><p class="textomapa">Tolhuaca</p></div>
-            <div id="circuloconguillio"><p class="textomapa">Conguillio</p></div>
-            <div id="circuloalercecostero"><p class="textomapa">Alerce Costero</p></div>
-            <div id="circulovicenteperezrosales"><p class="textomapa">Vicente Peréz Rosales</p></div>
-            <div id="circuloalerceandino"><p class="textomapa">Alerce Andino</p></div>
+            <div class="circulotolhuaca"><p class="textomapa">Tolhuaca</p></div>
+            <div class="circuloconguillio"><p class="textomapa">Conguillio</p></div>
+            <div class="circuloalercecostero"><p class="textomapa">Alerce Costero</p></div>
+            <div class="circulovicenteperezrosales"><p class="textomapa">Vicente Peréz Rosales</p></div>
+            <div class="circuloalerceandino"><p class="textomapa">Alerce Andino</p></div>
             
             <div class="daudio">
                 <audio id="audiomartinpescador" controls>
@@ -300,7 +298,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="peuco"><h1 class="titulopajaro">Peuco:</h1><p class="textopajaro">Agresivo y de vuelo rápido. Se alimenta de aves de corral, conejos y ratones.<br>
+        <div style="display: none" class="info" id="peuco"><h1 class="titulopajaro" id="titulopeuco">Peuco:</h1><p class="textopajaro">Agresivo y de vuelo rápido. Se alimenta de aves de corral, conejos y ratones.<br>
             <strong>Tamaño:</strong> Longitud de 58-59 cm y 100-120 cm de envergadura<br>
             <strong>Hábitat:</strong> Costa a pre-cordillera, especialmente en campos y lomas abiertas
             <br><strong>¿Cómo reconocerlo?</strong><br>Pico aguileño amarillo con negro azulado. Buen cazador.
@@ -314,13 +312,13 @@
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-pumalin-douglas-tompkins/" target="_blank" class="enlace" >"Parque Nacional Pumalín"</a></li>
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-alerce-andino/" target="_blank" class="enlace" >"Parque Nacional Alerce Andino"</a></li>
             </ul>
-            <div id="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
-            <div id="circulovillarrica"><p class="textomapa">Villarrica</p></div>
-            <div id="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
-            <div id="circuloconguillio"><p class="textomapa">Conguillio</p></div>
-            <div id="circuloalercecostero"><p class="textomapa">Alerce Costero</p></div>
-            <div id="circulopumalin"><p class="textomapa">Pumalin</p></div>
-            <div id="circuloalerceandino"><p class="textomapa">Alerce Andino</p></div>
+            <div class="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
+            <div class="circulovillarrica"><p class="textomapa">Villarrica</p></div>
+            <div class="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
+            <div class="circuloconguillio"><p class="textomapa">Conguillio</p></div>
+            <div class="circuloalercecostero"><p class="textomapa">Alerce Costero</p></div>
+            <div class="circulopumalin"><p class="textomapa">Pumalin</p></div>
+            <div class="circuloalerceandino"><p class="textomapa">Alerce Andino</p></div>
             
             <div class="daudio">
                 <audio id="audiopeuco" controls>
@@ -329,7 +327,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="patoreal"><h1 class="titulopajaro">Pato real:</h1><p class="textopajaro">Esquivo, es difícil acercarse a él ya que aunque esté lejos de una persona, nada rápidamente hacia el centro o vuela lejos<br>
+        <div style="display: none" class="info" id="patoreal"><h1 class="titulopajaro" id="titulopatoreal">Pato real:</h1><p class="textopajaro">Esquivo, es difícil acercarse a él ya que aunque esté lejos de una persona, nada rápidamente hacia el centro o vuela lejos<br>
             <strong>Tamaño:</strong> Longitud de 51 cm<br>
             <strong>Hábitat:</strong> Lagos, lagunas, tranques y ríos
             <br><strong>¿Cómo reconocerlo?</strong><br>cuello, cabeza, cola, patas y pico negro. Debajo de las alas, se le ve cuerpo blanco
@@ -342,12 +340,12 @@
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-pumalin-douglas-tompkins/" target="_blank" class="enlace" >"Parque Nacional Pumalín"</a></li>
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-alerce-andino/" target="_blank" class="enlace" >"Parque Nacional Alerce Andino"</a></li>
             </ul>
-            <div id="circulovillarrica"><p class="textomapa">Villarrica</p></div>
-            <div id="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
-            <div id="circuloconguillio"><p class="textomapa">Conguillio</p></div>
-            <div id="circuloalercecostero"><p class="textomapa">Alerce Costero</p></div>
-            <div id="circulopumalin"><p class="textomapa">Pumalin</p></div>
-            <div id="circuloalerceandino"><p class="textomapa">Alerce Andino</p></div>
+            <div class="circulovillarrica"><p class="textomapa">Villarrica</p></div>
+            <div class="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
+            <div class="circuloconguillio"><p class="textomapa">Conguillio</p></div>
+            <div class="circuloalercecostero"><p class="textomapa">Alerce Costero</p></div>
+            <div class="circulopumalin"><p class="textomapa">Pumalin</p></div>
+            <div class="circuloalerceandino"><p class="textomapa">Alerce Andino</p></div>
             
             <div class="daudio">
                 <audio id="audiopatoreal" controls>
@@ -356,7 +354,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="caiquen"><h1 class="titulopajaro">Caiquén</h1><p class="textopajaro">Es de los gansos más abundantes al sur de Chile, disminuyendo su cantidad hacia el norte<br>
+        <div style="display: none" class="info" id="caiquen"><h1 class="titulopajaro"  id="titulocaiquen">Caiquén</h1><p class="textopajaro">Es de los gansos más abundantes al sur de Chile, disminuyendo su cantidad hacia el norte<br>
             <strong>Tamaño:</strong> Longitud de 60 - 65 cm<br>
             <strong>Hábitat:</strong> Llanuras y planicies abiertas con pasto
             <br><strong>¿Cómo reconocerlo?</strong><br>Macho: plumaje blanco, y plumaje rayado cafe con blanco
@@ -368,16 +366,17 @@
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-alerce-andino/" target="_blank" class="enlace" >"Parque Nacional Alerce Andino"</a></li>
             </ul>
         
-            <div id="circuloalercecostero"><p class="textomapa">Alerce Costero</p></div>
-            <div id="circuloalerceandino"><p class="textomapa">Alerce Andino</p></div>
+            <div class="circuloalercecostero"><p class="textomapa">Alerce Costero</p></div>
+            <div class="circuloalerceandino"><p class="textomapa">Alerce Andino</p></div>
             <div class="daudio">
+
                 <audio id="audiocaiquen" controls>
                     <source src="audios\caiquen.mp3" type="audio/mp3">
                 </audio>
             </div>
         </div>
         
-        <div style="display: none" class="info" id="cachudito"><h1 class="titulopajaro">Cachudito:</h1><p class="textopajaro">Es una de las aves más pequeñas de Chile, caracterizada por sus plumas negras y largas en la cabeza<br>
+        <div style="display: none" class="info" id="cachudito"><h1 class="titulopajaro"  id="titulocachudito">Cachudito:</h1><p class="textopajaro">Es una de las aves más pequeñas de Chile, caracterizada por sus plumas negras y largas en la cabeza<br>
             <strong>Tamaño:</strong> 11 cm de longitud<br>
             <strong>Hábitat:</strong> Valles y laderas semiáridas de la precordillera, zonas forestales<br>
             <strong>¿Cómo reconocerlo?</strong><br>Cabeza y pico negro. Pecho y abdomen más oscuro con líneas longitudinales blancas
@@ -391,11 +390,11 @@
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-alerce-andino/" target="_blank" class="enlace" >"Parque Nacional Alerce Andino"</a></li>
             </ul>
         
-            <div id="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
-            <div id="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
-            <div id="circuloconguillio"><p class="textomapa">Conguillio</p></div>
-            <div id="circuloalercecostero"><p class="textomapa">Alerce Costero</p></div>
-            <div id="circuloalerceandino"><p class="textomapa">Alerce Andino</p></div>
+            <div class="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
+            <div class="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
+            <div class="circuloconguillio"><p class="textomapa">Conguillio</p></div>
+            <div class="circuloalercecostero"><p class="textomapa">Alerce Costero</p></div>
+            <div class="circuloalerceandino"><p class="textomapa">Alerce Andino</p></div>
             <div class="daudio">
                 <audio id="audiocachudito" controls>
                     <source src="audios\cachudito.mp3" type="audio/mp3">
@@ -403,7 +402,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="torcaza"><h1 class="titulopajaro">Torcaza:</h1><p class="textopajaro">Ave muy presente en la historia de Chile, desde la época precolombina. Durante la década de 1950, se temió la extinción de la especie debido al virus NewCastle. Actualmente, es una especie catalogada como “vulnerable”, pero sin estar en peligro de extinguirse.<br>
+        <div style="display: none" class="info" id="torcaza"><h1 class="titulopajaro"  id="titulotorcaza">Torcaza:</h1><p class="textopajaro">Ave muy presente en la historia de Chile, desde la época precolombina. Durante la década de 1950, se temió la extinción de la especie debido al virus NewCastle. Actualmente, es una especie catalogada como “vulnerable”, pero sin estar en peligro de extinguirse.<br>
             <strong>Tamaño:</strong> Longitud de 38 cm<br>
             <strong>Hábitat:</strong> Bosques y zonas arboladas
             <br><strong>¿Cómo reconocerlo?</strong><br>Color gris, con manchas redondeadas y negras en las alas. Posee tonos más dorados en en cuello y blanco en la cola
@@ -415,11 +414,11 @@
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-puyehue/" target="_blank" class="enlace" >"Parque Nacional Puyehue"</a></li>
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-alerce-andino/" target="_blank" class="enlace" >"Parque Nacional Alerce Andino"</a></li>
             </ul>
-            <div id="circulohuerquehue"><p class="textomapa">Huerquehue</p></div>
-            <div id="circulotolhuaca"><p class="textomapa">Tolhuaca</p></div>
-            <div id="circuloalercecostero"><p class="textomapa">Alerce costero</p></div>
-            <div id="circulopuyehue"><p class="textomapa">Puyehue</p></div>
-            <div id="circuloalerceandino"><p class="textomapa">Alerce andino</p></div>
+            <div class="circulohuerquehue"><p class="textomapa">Huerquehue</p></div>
+            <div class="circulotolhuaca"><p class="textomapa">Tolhuaca</p></div>
+            <div class="circuloalercecostero"><p class="textomapa">Alerce costero</p></div>
+            <div class="circulopuyehue"><p class="textomapa">Puyehue</p></div>
+            <div class="circuloalerceandino"><p class="textomapa">Alerce andino</p></div>
             <div class="daudio">
                 <audio id="audiotorcaza" controls>
                     <source src="audios\torcaza.mp3" type="audio/mp3">
@@ -427,9 +426,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="cortacorriente"><h1 class="titulopajaro"> 
-            Pato correntino o cortacorrientes: </h1><p class="textopajaro">Difícil de confundir dados sus colores, se le puede encontrar nadando contra la corriente o descansando sobre una roca. No suele volar<br>
-            <strong>Tamaño:</strong>: Longitud de 42 - 43 cm<br>
+        <div style="display: none" class="info" id="cortacorriente"><h1 class="titulopajaro"  id="titulopatocorrentino">Pato correntino o cortacorrientes: </h1><p class="textopajaro">Difícil de confundir dados sus colores, se le puede encontrar nadando contra la corriente o descansando sobre una roca. No suele volar<br><strong>Tamaño:</strong>: Longitud de 42 - 43 cm<br>
             <strong>Hábitat:</strong> Ríos torrentosos, con rocas y pozas
             <br><strong>¿Cómo reconocerlo?</strong><br>Macho: cabeza y cuello blancos, con una línea negra en el centro (desde el ojo hasta el cuello). Abdomen café y dorso negro con líneas blancas. Pico y patas rojizas
             <br>Hembra: Cabeza y cuello gris, lomo y cola blancos con líneas negras
@@ -441,10 +438,10 @@
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-vicente-perez-rosales/" target="_blank" class="enlace" >"Parque Nacional Vicente Peréz Rosales"</a></li>
             </ul>
             
-            <div id="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
-            <div id="circuloconguillio"><p class="textomapa">Conguillio</p></div>
-            <div id="circulopuyehue"><p class="textomapa">Puyehue</p></div>
-            <div id="circulovicenteperezrosales"><p class="textomapa">Vicente Peréz Rosales</p></div>
+            <div class="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
+            <div class="circuloconguillio"><p class="textomapa">Conguillio</p></div>
+            <div class="circulopuyehue"><p class="textomapa">Puyehue</p></div>
+            <div class="circulovicenteperezrosales"><p class="textomapa">Vicente Peréz Rosales</p></div>
             <div class="daudio">
                 <audio id="audiopatotorrentero" controls>
                     <source src="audios\patotorrentero.mp3" type="audio/mp3">
@@ -452,7 +449,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="aguilucho"><h1 class="titulopajaro">Aguilucho</h1><p class="textopajaro">Planea en círculos para luego lanzarse sobre su presa. Suele posarse sobre las partes altas de los árboles<br>
+        <div style="display: none" class="info" id="aguilucho"><h1 class="titulopajaro"  id="tituloaguilucho">Aguilucho</h1><p class="textopajaro">Planea en círculos para luego lanzarse sobre su presa. Suele posarse sobre las partes altas de los árboles<br>
             <strong>Tamaño:</strong> Longitud de 50 - 55 cm<br>
             <strong>Hábitat:</strong> En casi todos los ambientes, desde la costa hasta los 4000 msnm
             <br><strong>¿Cómo reconocerlo?</strong><br>Gris pizarra por arriba y por abajo blanco. Patas amarillas
@@ -466,13 +463,13 @@
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-pumalin-douglas-tompkins/" target="_blank" class="enlace" >"Parque Nacional Pumalín"</a></li>
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-puyehue/" target="_blank" class="enlace" >"Parque Nacional Puyehue"</a></li>
             </ul>
-            <div id="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
-            <div id="circulononguen"><p class="textomapa">Nonguén</p></div>
-            <div id="circulohuerquehue"><p class="textomapa">Huerquehue</p></div>
-            <div id="circulovillarrica"><p class="textomapa">Villarrica</p></div>
-            <div id="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
-            <div id="circulopumalin"><p class="textomapa">Pumalin</p></div>
-            <div id="circulopuyehue"><p class="textomapa">Puyehue</p></div>
+            <div class="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
+            <div class="circulononguen"><p class="textomapa">Nonguén</p></div>
+            <div class="circulohuerquehue"><p class="textomapa">Huerquehue</p></div>
+            <div class="circulovillarrica"><p class="textomapa">Villarrica</p></div>
+            <div class="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
+            <div class="circulopumalin"><p class="textomapa">Pumalin</p></div>
+            <div class="circulopuyehue"><p class="textomapa">Puyehue</p></div>
             <div class="daudio">
                 <audio id="audioaguilucho" controls>
                     <source src="audios\aguilucho.mp3" type="audio/mp3">
@@ -480,7 +477,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="choroy"><h1 class="titulopajaro">Choroy:</h1><p class="textopajaro">VIve solamente en Chile, especialmente en bosques del sur.Suele encontrarse en grandes bandadas durante todo el año, es bullicioso y sociable <br>
+        <div style="display: none" class="info" id="choroy"><h1 class="titulopajaro"  id="titulochoroy">Choroy:</h1><p class="textopajaro">VIve solamente en Chile, especialmente en bosques del sur.Suele encontrarse en grandes bandadas durante todo el año, es bullicioso y sociable <br>
             <strong>Tamaño:</strong> Longitud de 40 - 42 cm<br>
             <strong>Hábitat:</strong> Principalmente en bosques de Nothofagus y araucarias, hasta los 2000 msnm
             <br><strong>¿Cómo reconocerlo?</strong><br>color verde con mancha rojiza delante de los ojos, pico gris oscuro y grueso. Cola color rojo oscuro con la punta verde
@@ -492,10 +489,10 @@
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-puyehue/" target="_blank" class="enlace" >"Parque Nacional Puyehue"</a></li>
             </ul>
             
-            <div id="circulohuerquehue"><p class="textomapa">Huerquehue</p></div>
-            <div id="circulotolhuaca"><p class="textomapa">Tolhuaca</p></div>
-            <div id="circuloconguillio"><p class="textomapa">Conguillio</p></div>
-            <div id="circulopuyehue"><p class="textomapa">Puyehue</p></div>
+            <div class="circulohuerquehue"><p class="textomapa">Huerquehue</p></div>
+            <div class="circulotolhuaca"><p class="textomapa">Tolhuaca</p></div>
+            <div class="circuloconguillio"><p class="textomapa">Conguillio</p></div>
+            <div class="circulopuyehue"><p class="textomapa">Puyehue</p></div>
             <div class="daudio">
                 <audio id="audiochoroy" controls>
                     <source src="audios\choroy.mp3" type="audio/mp3">
@@ -503,7 +500,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="huala"><h1 class="titulopajaro">Huala: </h1><p class="textopajaro">Suele ser confundido con un pato, sin embargo, es posible diferenciarlo dado su cuello largo y pico puntiagudo y largo. Buen nadador. Evita volar, exceptuando situaciones de peligro en que sea necesario<br>
+        <div style="display: none" class="info" id="huala"><h1 class="titulopajaro" id="titulohuala">Huala: </h1><p class="textopajaro">Suele ser confundido con un pato, sin embargo, es posible diferenciarlo dado su cuello largo y pico puntiagudo y largo. Buen nadador. Evita volar, exceptuando situaciones de peligro en que sea necesario<br>
             <strong>Tamaño:</strong> Longitud de 78 cm<br>
             <strong>Hábitat:</strong> Lagos, lagunas, tranques, embalses y zonas costeras
             <br><strong>¿Cómo reconocerlo?</strong><br>Cabeza grisácea, cuello café 
@@ -515,10 +512,10 @@
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-puyehue/" target="_blank" class="enlace" >"Parque Nacional Puyehue"</a></li>
             </ul>
         
-            <div id="circulononguen"><p class="textomapa">Nonguén</p></div>
-            <div id="circulovillarrica"><p class="textomapa">Villarrica</p></div>
-            <div id="circuloconguillio"><p class="textomapa">Conguillio</p></div>
-            <div id="circulopuyehue"><p class="textomapa">Puyehue</p></div>
+            <div class="circulononguen"><p class="textomapa">Nonguén</p></div>
+            <div class="circulovillarrica"><p class="textomapa">Villarrica</p></div>
+            <div class="circuloconguillio"><p class="textomapa">Conguillio</p></div>
+            <div class="circulopuyehue"><p class="textomapa">Puyehue</p></div>
             <div class="daudio">
                 <audio id="audiohuala" controls>
                     <source src="audios\huala.mp3" type="audio/mp3">
@@ -526,7 +523,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="chercan"><h1 class="titulopajaro">Chercán:</h1><p class="textopajaro">Se le puede identificar fácilmente por su tamaño, cola levantada y su grito áspero y fuerte<br>
+        <div style="display: none" class="info" id="chercan"><h1 class="titulopajaro"  id="titulochercan">Chercán:</h1><p class="textopajaro">Se le puede identificar fácilmente por su tamaño, cola levantada y su grito áspero y fuerte<br>
             <strong>Tamaño:</strong> Longitud de 12 cms<br>
             <strong>Hábitat:</strong> En todos los lugares. Prados, campos cultivados, dunas costeras, quebradas, faldeos semiáridos de la precordillera, matorrales y zonas pobladas
             <br><strong>¿Cómo reconocerlo?</strong><br>Cabeza, dorso y patas color café claro, pico más oscuro y cola en tonos rojizos
@@ -538,10 +535,10 @@
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-conguillio/" target="_blank" class="enlace" >"Parque Nacional Conguillio"</a></li>
             </ul>
         
-            <div id="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
-            <div id="circulononguen"><p class="textomapa">Nonguén</p></div>
-            <div id="circulovillarrica"><p class="textomapa">Villarrica</p></div>
-            <div id="circuloconguillio"><p class="textomapa">Conguillio</p></div>
+            <div class="circulolagunadellaja"><p class="textomapa" >Laguna del Laja</p></div>
+            <div class="circulononguen"><p class="textomapa">Nonguén</p></div>
+            <div class="circulovillarrica"><p class="textomapa">Villarrica</p></div>
+            <div class="circuloconguillio"><p class="textomapa">Conguillio</p></div>
             
             <div class="daudio">
                 <audio id="audiochercan" controls>
@@ -550,7 +547,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="bandurria"><h1 class="titulopajaro">Bandurria: </h1><p class="textopajaro">Es una ave migratoria de invierno hacia el norte y de verano hacia la parte sur<br>
+        <div style="display: none" class="info" id="bandurria"><h1 class="titulopajaro"  id="titulobandurria">Bandurria: </h1><p class="textopajaro">Es una ave migratoria de invierno hacia el norte y de verano hacia la parte sur<br>
             <strong>Tamaño:</strong> Longitud de 73 cms<br>
             <strong>Hábitat:</strong> Zonas pantanosas y orillas de lagos y lagunas. También en campos arados y sembrados
             <br><strong>¿Cómo reconocerlo?</strong><br> Pico alargado en forma de hoz. Cuello y cabeza naranjo terroso y pelaje rayado cafe con blanco<br>
@@ -564,12 +561,12 @@
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-puyehue/" target="_blank" class="enlace" >"Parque Nacional Puyehue"</a></li>
         
             </ul>
-            <div id="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
-            <div id="circulohuerquehue"><p class="textomapa">Huerquehue</p></div>
-            <div id="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
-            <div id="circulotolhuaca"><p class="textomapa">Tolhuaca</p></div>
-            <div id="circulopumalin"><p class="textomapa">Pumalin</p></div>
-            <div id="circulopuyehue"><p class="textomapa">Puyehue</p></div>
+            <div class="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
+            <div class="circulohuerquehue"><p class="textomapa">Huerquehue</p></div>
+            <div class="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
+            <div class="circulotolhuaca"><p class="textomapa">Tolhuaca</p></div>
+            <div class="circulopumalin"><p class="textomapa">Pumalin</p></div>
+            <div class="circulopuyehue"><p class="textomapa">Puyehue</p></div>
             
             <div class="daudio">
                 <audio id="audiobandurria" controls>
@@ -578,7 +575,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="picaflor"><h1 class="titulopajaro">Picaflor chico:</h1><p class="textopajaro">En el extremo sur desaparece en el invierno, lo que implica una inmigración estacional<br>
+        <div style="display: none" class="info" id="picaflor"><h1 class="titulopajaro"  id="titulopicaflor">Picaflor chico:</h1><p class="textopajaro">En el extremo sur desaparece en el invierno, lo que implica una inmigración estacional<br>
             <strong>Tamaño:</strong> longitud de 11 cms<br>
             <strong>Hábitat:</strong> Bosques, quebradas aguadas, jardínes; y en general, lugares floridos
             <br><strong>¿Cómo reconocerlo?</strong><br>Macho: cabeza verde con corona anaranjada y pico recto negro.<br>
@@ -591,11 +588,11 @@
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-pumalin-douglas-tompkins/" target="_blank" class="enlace" >"Parque Nacional Pumalín"</a></li>
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-vicente-perez-rosales/" target="_blank" class="enlace" >"Parque Nacional Vicente Peréz Rosales"</a></li>
             </ul>
-            <div id="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
-            <div id="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
-            <div id="circuloconguillio"><p class="textomapa">Conguillio</p></div>
-            <div id="circulopumalin"><p class="textomapa">Pumalin</p></div>
-            <div id="circulovicenteperezrosales"><p class="textomapa">Vicente Peréz Rosales</p></div>
+            <div class="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
+            <div class="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
+            <div class="circuloconguillio"><p class="textomapa">Conguillio</p></div>
+            <div class="circulopumalin"><p class="textomapa">Pumalin</p></div>
+            <div class="circulovicenteperezrosales"><p class="textomapa">Vicente Peréz Rosales</p></div>
             <div class="daudio">
                 <audio id="audiocoliflor" controls>
                     <source src="audios\coliflor.mp3" type="audio/mp3">
@@ -603,7 +600,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="tagua"><h1 class="titulopajaro">Tagua común: </h1><p class="textopajaro">Excelentes nadadoras y buceadoras. Gustan de las lagunas con aguas libres al centro y vegetación en las orillas, juntándose en grupos en los bordes de estas. <br>
+        <div style="display: none" class="info" id="tagua"><h1 class="titulopajaro"  id="titulotagua">Tagua común: </h1><p class="textopajaro">Excelentes nadadoras y buceadoras. Gustan de las lagunas con aguas libres al centro y vegetación en las orillas, juntándose en grupos en los bordes de estas. <br>
             <strong>Tamaño:</strong> Longitud de 55 cms<br>
             <strong>Hábitat:</strong> Lagunas, lagos, lugares de aguas calmas y vegetación en las orillas. No sube a la zona de la cordillera<br>
             <strong>¿Cómo reconocerlo?</strong><br>
@@ -617,12 +614,12 @@
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-conguillio/" target="_blank" class="enlace" >"Parque Nacional Conguillio"</a></li>
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-vicente-perez-rosales/" target="_blank" class="enlace" >"Parque Nacional Vicente Peréz Rosales"</a></li>
             </ul>
-            <div id="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
-            <div id="circulononguen"><p class="textomapa">Nonguén</p></div>
-            <div id="circulovillarrica"><p class="textomapa">Villarrica</p></div>
-            <div id="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
-            <div id="circuloconguillio"><p class="textomapa">Conguillio</p></div>
-            <div id="circulovicenteperezrosales"><p class="textomapa">Vicente Peréz Rosales</p></div>
+            <div class="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
+            <div class="circulononguen"><p class="textomapa">Nonguén</p></div>
+            <div class="circulovillarrica"><p class="textomapa">Villarrica</p></div>
+            <div class="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
+            <div class="circuloconguillio"><p class="textomapa">Conguillio</p></div>
+            <div class="circulovicenteperezrosales"><p class="textomapa">Vicente Peréz Rosales</p></div>
             <div class="daudio">
                 <audio id="audiotaguacomun" controls>
                     <source src="audios\taguacomun.mp3" type="audio/mp3">
@@ -630,7 +627,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="aguila"><h1 class="titulopajaro">Aguila: </h1><p class="textopajaro">Esquiva y desconfiada, por lo que difícilmente se puede ver de cerca. Se puede ver realizando planeos circulares<br>
+        <div style="display: none" class="info" id="aguila"><h1 class="titulopajaro"  id="tituloaguila">Aguila: </h1><p class="textopajaro">Esquiva y desconfiada, por lo que difícilmente se puede ver de cerca. Se puede ver realizando planeos circulares<br>
             <strong>Tamaño:</strong> 65-80 cm de largo y 175-200 cm de envergadura  <br>
             <strong>Hábitat:</strong> En todo lugar, pero más numerosa en las zonas bajas de las cordilleras; laderas vegetadas, estepas arbustivas y bosques, vuelan hasta las 2200 metros sobre el nivel del mar
             <br><strong>¿Cómo reconocerlo?</strong><br> Alas anchas y cola corta y ancha. Pecho gris claro y plumas gris oscuro
@@ -643,11 +640,11 @@
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-vicente-perez-rosales/" target="_blank" class="enlace" >"Parque Nacional Vicente Peréz Rosales"</a></li>
             </ul>
         
-            <div id="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
-            <div id="circulovillarrica"><p class="textomapa">Villarrica</p></div>
-            <div id="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
-            <div id="circulotolhuaca"><p class="textomapa">Tolhuaca</p></div>
-            <div id="circulovicenteperezrosales"><p class="textomapa">Vicente Peréz Rosales</p></div>
+            <div class="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
+            <div class="circulovillarrica"><p class="textomapa">Villarrica</p></div>
+            <div class="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
+            <div class="circulotolhuaca"><p class="textomapa">Tolhuaca</p></div>
+            <div class="circulovicenteperezrosales"><p class="textomapa">Vicente Peréz Rosales</p></div>
             
             <div class="daudio">
                 <audio id="audioaguila" controls>
@@ -656,7 +653,7 @@
             </div>        
         </div>
         
-        <div style="display: none" class="info" id="quetru"><h1 class="titulopajaro">Quetru Volador: </h1><p class="textopajaro">Prefiere moverse corriendo sobre el agua que volando. Sus características físicas le permiten volar con facilidad.<br>
+        <div style="display: none" class="info" id="quetru"><h1 class="titulopajaro"  id="tituloquetru">Quetru Volador: </h1><p class="textopajaro">Prefiere moverse corriendo sobre el agua que volando. Sus características físicas le permiten volar con facilidad.<br>
             <strong>Tamaño:</strong> Longitud de 65-70 cms<br>
             <strong>Hábitat:</strong> Agua dulce y salada como ríos, lagos, lagunas, costas rocosas, marinas, bahías
             <br><strong>¿Cómo reconocerlo?</strong><br>Pato oscuro con mancha alrededor de los ojos blanca, que asimila ojos rasgados
@@ -667,9 +664,9 @@
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-chiloe/" target="_blank" class="enlace" >"Parque Nacional Chiloé"</a></li>
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-hornopiren/" target="_blank" class="enlace" >"Parque Nacional Hornopirén"</a></li>
             </ul>
-            <div id="circulohuerquehue"><p class="textomapa">Huerquehue</p></div>
-            <div id="circulochiloe"><p class="textomapa">Chiloé</p></div>
-            <div id="circulohornopiren"><p class="textomapa">Hornopirén</p></div>
+            <div class="circulohuerquehue"><p class="textomapa">Huerquehue</p></div>
+            <div class="circulochiloe"><p class="textomapa">Chiloé</p></div>
+            <div class="circulohornopiren"><p class="textomapa">Hornopirén</p></div>
             
             <div class="daudio">
                 <audio id="audioquetru" controls>
@@ -678,7 +675,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="concon"><h1 class="titulopajaro">Concón de Chiloé: </h1><p class="textopajaro">Es considerado muy beneficioso para el ser humano, debido a la gran cantidad de lauchas y ratones que captura. Con su canto, es el representante en Sudamérica del Tawny owl europeo, o del Barred owl norteamericano.<br>
+        <div style="display: none" class="info" id="concon"><h1 class="titulopajaro"  id="tituloconcon">Concón de Chiloé: </h1><p class="textopajaro">Es considerado muy beneficioso para el ser humano, debido a la gran cantidad de lauchas y ratones que captura. Con su canto, es el representante en Sudamérica del Tawny owl europeo, o del Barred owl norteamericano.<br>
             <strong>Tamaño:</strong> Longitud de 38 cms.<br>
             <strong>Hábitat:</strong> Bosques y selvas
             <br><strong>¿Cómo reconocerlo?</strong><br>Cabeza redondeada y cuerpo entre rojizo y negro. Patas amarillas y ojos pardos
@@ -688,7 +685,7 @@
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-chiloe/" target="_blank" class="enlace" >"Parque Nacional Chiloé"</a></li>
             </ul>
             
-            <div id="circulochiloe"><p class="textomapa">Chiloé</p></div>
+            <div class="circulochiloe"><p class="textomapa">Chiloé</p></div>
             <div class="daudio">
                 <audio id="audioconcon" controls>
                     <source src="audios\concon.mp3" type="audio/mp3">
@@ -696,7 +693,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="rayadito"><h1 class="titulopajaro">Rayadito de Chiloé:</h1><p class="textopajaro">Las largas plumas de su cola con su extremo “pelado”, dan la impresión de que tenga una cola espinosa 
+        <div style="display: none" class="info" id="rayadito"><h1 class="titulopajaro" id="titulorayadito"  id="titulo">Rayadito de Chiloé:</h1><p class="textopajaro">Las largas plumas de su cola con su extremo “pelado”, dan la impresión de que tenga una cola espinosa 
             Las largas plumas de su cola con su extremo “pelado”, dan la impresión de que tenga una cola espinosa <br>
             <strong>Tamaño:</strong> Longitud de 13-15 cms. <br>
             <strong>Hábitat:</strong> Bosques templados del sur. Localmente en tierras bajas aridas con matorral. Vuela entre 0-1200 metros sobre el nivel del mar 
@@ -709,11 +706,11 @@
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-conguillio/" target="_blank" class="enlace" >"Parque Nacional Conguillio"</a></li>
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-chiloe/" target="_blank" class="enlace" >"Parque Nacional Chiloé"</a></li>
             </ul>
-            <div id="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
-            <div id="circulononguen"><p class="textomapa">Nonguén</p></div>
-            <div id="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
-            <div id="circuloconguillio"><p class="textomapa">Conguillio</p></div>
-            <div id="circulochiloe"><p class="textomapa">Chiloé</p></div>
+            <div class="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
+            <div class="circulononguen"><p class="textomapa">Nonguén</p></div>
+            <div class="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
+            <div class="circuloconguillio"><p class="textomapa">Conguillio</p></div>
+            <div class="circulochiloe"><p class="textomapa">Chiloé</p></div>
             
             <div class="daudio">
                 <audio id="audiorayadito" controls>
@@ -722,7 +719,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="diuca"><h1 class="titulopajaro">Diuca de Chiloé: </h1><p class="textopajaro">Es una de las aves más abundantes y conocidas del territorio, ya que se encuentran durante todo el año en el territorio. <br>
+        <div style="display: none" class="info" id="diuca"><h1 class="titulopajaro"  id="titulodiuca">Diuca de Chiloé: </h1><p class="textopajaro">Es una de las aves más abundantes y conocidas del territorio, ya que se encuentran durante todo el año en el territorio. <br>
             <strong>Tamaño:</strong> Longitud de 17-18 cm <br>
             <strong>Hábitat:</strong> Matorrales, quebradas y praderas de los campos; jardines y plazas de las ciudades
             <br><strong>¿Cómo reconocerlo?</strong><br>Tonos grises y rojizos, tamaño mediano.
@@ -731,8 +728,8 @@
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-pumalin-douglas-tompkins/" target="_blank" class="enlace" >"Parque Nacional Pumalín"</a></li>
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-chiloe/" target="_blank" class="enlace" >"Parque Nacional Chiloé"</a></li>
             </ul>
-            <div id="circulopumalin"><p class="textomapa">Pumalin</p></div>
-            <div id="circulochiloe"><p class="textomapa">Chiloé</p></div>
+            <div class="circulopumalin"><p class="textomapa">Pumalin</p></div>
+            <div class="circulochiloe"><p class="textomapa">Chiloé</p></div>
             
             <div class="daudio">
                 <audio id="audiodiuca" controls>
@@ -741,7 +738,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="garza"><h1 class="titulopajaro"> 
+        <div style="display: none" class="info" id="garza"><h1 class="titulopajaro"  id="titulogarzacuca"> 
             Garza cuca: </h1><p class="textopajaro">Es la más grande de las garzas de Chile. Solitaria, rara vez anda en pareja. De hábitos nocturnos, de día puede pasar horas parada sobre la rama de un árbol<br>
             <strong>Tamaño:</strong> Longitud de 120 cm <br>
             <strong>Hábitat:</strong> Orillas de lagos, lagunas, ríos, embalses, tranques y playas marinas
@@ -752,8 +749,8 @@
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-conguillio/" target="_blank" class="enlace" >"Parque Nacional Conguillio"</a></li>
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-chiloe/" target="_blank" class="enlace" >"Parque Nacional Chiloé"</a></li>
             </ul>
-            <div id="circuloconguillio"><p class="textomapa">Conguillio</p></div>
-            <div id="circulochiloe"><p class="textomapa">Chiloé</p></div>
+            <div class="circuloconguillio"><p class="textomapa">Conguillio</p></div>
+            <div class="circulochiloe"><p class="textomapa">Chiloé</p></div>
             
             <div class="daudio">
                 <audio id="audiogarza" controls>
@@ -762,7 +759,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="caranca"><h1 class="titulopajaro">Caranca:</h1><p class="textopajaro">Solo en ocasiones entra al agua y prefiere andar en solitario o en parejas por las rocas<br>
+        <div style="display: none" class="info" id="caranca"><h1 class="titulopajaro"  id="titulocaranca">Caranca:</h1><p class="textopajaro">Solo en ocasiones entra al agua y prefiere andar en solitario o en parejas por las rocas<br>
             <strong>Tamaño:</strong> longitud de 60 cm<br>
             <strong>Hábitat:</strong> zonas costera e islas adyacentes
             <br><strong>¿Cómo reconocerlo?</strong><br>Macho: plumaje blanco con el pico negro
@@ -771,7 +768,7 @@
             <ul>
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-chiloe/" target="_blank" class="enlace" >"Parque Nacional Chiloé"</a></li>
             </ul>
-            <div id="circulochiloe"><p class="textomapa">Chiloé</p></div>
+            <div class="circulochiloe"><p class="textomapa">Chiloé</p></div>
             
             <div class="daudio">
                 <audio id="audiocaranca" controls>
@@ -780,7 +777,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="cormoran"><h1 class="titulopajaro">Cormorán de las rocas:</h1><p class="textopajaro">Tienen el cuello totalmente negro hasta la base<br>
+        <div style="display: none" class="info" id="cormoran"><h1 class="titulopajaro"  id="titulocormoran">Cormorán de las rocas:</h1><p class="textopajaro">Tienen el cuello totalmente negro hasta la base<br>
             <strong>Tamaño:</strong> longitud de 65-70 cm <br>
             <strong>Hábitat:</strong> zonas costeras y de canales
             <br><strong>¿Cómo reconocerlo?</strong><br> Pingüino pequeño de pelaje negro con pecho blanco. Cuello alargado negro.
@@ -788,7 +785,7 @@
             <ul>
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-chiloe/" target="_blank" class="enlace" >"Parque Nacional Chiloé"</a></li>
             </ul>
-            <div id="circulochiloe"><p class="textomapa">Chiloé</p></div>
+            <div class="circulochiloe"><p class="textomapa">Chiloé</p></div>
         
             <div class="daudio">
                 <audio id="audiocormoran" controls>
@@ -797,7 +794,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="pilpilen"><h1 class="titulopajaro">Pilpilen austral: </h1><p class="textopajaro">Tiene un circulo periocular amarillo <br>
+        <div style="display: none" class="info" id="pilpilen"><h1 class="titulopajaro"  id="titulopilpilen">Pilpilén austral: </h1><p class="textopajaro">Tiene un circulo periocular amarillo <br>
             <strong>Tamaño:</strong> 44 cm de longitud <br>
             <strong>Hábitat:</strong> Costas, islotes, planicies, llanos y campos húmedos
             <br><strong>¿Cómo reconocerlo?</strong><br>Cabeza, cuello y pecho negro. Pico recto rojo y ojos amarillos.
@@ -805,7 +802,7 @@
             <ul>
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-chiloe/" target="_blank" class="enlace" >"Parque Nacional Chiloé"</a></li>
             </ul>
-            <div id="circulochiloe"><p class="textomapa">Chiloé</p></div>
+            <div class="circulochiloe"><p class="textomapa">Chiloé</p></div>
         
             <div class="daudio">
                 <audio id="audiopilpilenaustral" controls>
@@ -814,7 +811,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="cernicalo"><h1 class="titulopajaro">Cernícalo:</h1><p class="textopajaro">Es fácilmente diferenciable por su color rojo ladrillo en el manto y lomo<br>
+        <div style="display: none" class="info" id="cernicalo"><h1 class="titulopajaro"  id="titulocernicalo">Cernícalo:</h1><p class="textopajaro">Es fácilmente diferenciable por su color rojo ladrillo en el manto y lomo<br>
             <strong>Tamaño:</strong> 30 cm de longitud y 50 cm de envergadura<br>
             <strong>Hábitat:</strong> Campos, praderas y zonas montañosas de hasta 3000 metros sobre el nivel del mar
             <br><strong>¿Cómo reconocerlo?</strong><br>
@@ -826,10 +823,10 @@
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-conguillio/" target="_blank" class="enlace" >"Parque Nacional Conguillio"</a></li>
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-chiloe/" target="_blank" class="enlace" >"Parque Nacional Chiloé"</a></li>
             </ul>
-            <div id="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
-            <div id="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
-            <div id="circuloconguillio"><p class="textomapa">Conguillio</p></div>
-            <div id="circulochiloe"><p class="textomapa">Chiloé</p></div>
+            <div class="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
+            <div class="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
+            <div class="circuloconguillio"><p class="textomapa">Conguillio</p></div>
+            <div class="circulochiloe"><p class="textomapa">Chiloé</p></div>
             
             <div class="daudio">
                 <audio id="audiocernicalo" controls>
@@ -838,7 +835,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="chincol"><h1 class="titulopajaro">Chincol:</h1><p class="textopajaro"> Ave solitaria que sólo posee pareja en época de reproducción. Es posible distinguirlo por su gran mancha rojiza en el cuello, posee un canto característico con sólo 4 notas.<br>
+        <div style="display: none" class="info" id="chincol"><h1 class="titulopajaro"  id="titulochincol">Chincol:</h1><p class="textopajaro"> Ave solitaria que sólo posee pareja en época de reproducción. Es posible distinguirlo por su gran mancha rojiza en el cuello, posee un canto característico con sólo 4 notas.<br>
             <strong>Tamaño:</strong> 15 cm de longitud<br>
             <strong>Hábitat:</strong> Cerros, campos, huertos y jardines
             <br><strong>¿Cómo reconocerlo?</strong><br>Macho: cabeza gris con tres líneas negras a cada lado (desde la base del pico hasta la nuca), pecho y abdomen más blancos, tiene plumas levantadas en la cabeza.
@@ -849,8 +846,8 @@
                 <li> <a href="https://www.conaf.cl/parques/parque-nacional-conguillio/" target="_blank" class="enlace" >"Parque Nacional Conguillio"</a></li>
             </ul>
         
-            <div id="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
-            <div id="circuloconguillio"><p class="textomapa">Conguillio</p></div>
+            <div class="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
+            <div class="circuloconguillio"><p class="textomapa">Conguillio</p></div>
         
             <div class="daudio">
                 <audio id="audiochincol" controls>
@@ -859,7 +856,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="tordo"><h1 class="titulopajaro">Tordo:</h1><p class="textopajaro"> Esta ave es fácil de reconocer, dado su sonido característico y su color. Durante las épocas no reproductivas, es un ave muy sociable que se puede encontrar en bandadas numerosas
+        <div style="display: none" class="info" id="tordo"><h1 class="titulopajaro"  id="titulotordo">Tordo:</h1><p class="textopajaro"> Esta ave es fácil de reconocer, dado su sonido característico y su color. Durante las épocas no reproductivas, es un ave muy sociable que se puede encontrar en bandadas numerosas
             <br>
             <strong>Tamaño:</strong> 28 cm de longitud<br>
             <strong>Hábitat:</strong> preferentemente en quebradas, zonas abiertas, laderas y cerros con mucha vegetación
@@ -870,8 +867,8 @@
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-conguillio/" target="_blank" class="enlace" >"Parque Nacional Conguillio"</a></li>
             </ul>
         
-            <div id="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
-            <div id="circuloconguillio"><p class="textomapa">Conguillio</p></div>
+            <div class="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
+            <div class="circuloconguillio"><p class="textomapa">Conguillio</p></div>
             
             <div class="daudio">
                 <audio id="audiotordo" controls>
@@ -880,7 +877,7 @@
             </div>
         </div>
         
-        <div style="display: none" class="info" id="tucuquere"><h1 class="titulopajaro">Tucúquere:</h1><p class="textopajaro"> Es el ave rapaz nocturna más grande de Chile, con una coloración en tonos variados de café oscuro
+        <div style="display: none" class="info" id="tucuquere"><h1 class="titulopajaro"  id="titulotucuquere">Tucúquere:</h1><p class="textopajaro"> Es el ave rapaz nocturna más grande de Chile, con una coloración en tonos variados de café oscuro
             <br>
             <strong>Tamaño:</strong> 48 - 50 cm de longitud<br>
             <strong>Hábitat:</strong> zonas boscosas y quebradas cordilleranas, así como en zonas más desérticas
@@ -892,9 +889,9 @@
                 <li><a href="https://www.conaf.cl/parques/parque-nacional-conguillio/" target="_blank" class="enlace" >"Parque Nacional Conguillio"</a></li>
            </ul>
             
-            <div id="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
-            <div id="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
-            <div id="circuloconguillio"><p class="textomapa">Conguillio</p></div>
+            <div class="circulolagunadellaja"><p class="textomapa">Laguna del Laja</p></div>
+            <div class="circulonahuelbuta"><p class="textomapa">Nahuelbuta</p></div>
+            <div class="circuloconguillio"><p class="textomapa">Conguillio</p></div>
         
             <div class="daudio">
                 <audio id="audiotucúquere" controls>
