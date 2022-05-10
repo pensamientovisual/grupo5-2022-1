@@ -100,8 +100,8 @@ transform: translate(-60%, -50%);
   flex-direction: column;
   position: absolute;
   top: 50%;
-  left: 2.5%;
-  transform: translate(-2.5%, -50%);
+  left: 6%;
+  transform: translate(-6%, -50%);
 }
 
 body{
