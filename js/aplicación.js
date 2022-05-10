@@ -1,6 +1,9 @@
 $(document).ready(function(){
 
-  var pajaro = $(".fotopajaro")
+  var pajaro1 = $(".fotopajaro1")
+  var pajaro2 = $(".fotopajaro2")
+  var pajaro3 = $(".fotopajaro3")
+  var pajaro4 = $(".fotopajaro4")
   var titulos = $("#titulo")
   var simbol = $("#simbologia")
   var inforef=$("#referencias")
@@ -50,15 +53,57 @@ $(document).ready(function(){
     
   });
   
-  pajaro.mouseenter(function(){
+  pajaro1.mouseenter(function(){
       $(this).fadeTo("fast", 0.6);
   });
 
-  pajaro.mouseleave(function(){
+  pajaro1.mouseleave(function(){
     $(this).fadeTo("fast", 1); 
   });
 
-  pajaro.click(function(){
+  pajaro1.click(function(){
+    $(titulos).hide('fast');
+    $(simbol).hide('fast');
+    $(inforef).hide('fast');
+  });
+
+  pajaro2.mouseenter(function(){
+    $(this).fadeTo("fast", 0.6);
+  });
+
+  pajaro2.mouseleave(function(){
+    $(this).fadeTo("fast", 1); 
+  });
+
+  pajaro2.click(function(){
+    $(titulos).hide('fast');
+    $(simbol).hide('fast');
+    $(inforef).hide('fast');
+  });
+
+  pajaro3.mouseenter(function(){
+    $(this).fadeTo("fast", 0.6);
+  });
+
+  pajaro3.mouseleave(function(){
+    $(this).fadeTo("fast", 1); 
+  });
+
+  pajaro3.click(function(){
+    $(titulos).hide('fast');
+    $(simbol).hide('fast');
+    $(inforef).hide('fast');
+  });
+
+  pajaro4.mouseenter(function(){
+    $(this).fadeTo("fast", 0.6);
+  });
+
+  pajaro4.mouseleave(function(){
+    $(this).fadeTo("fast", 1); 
+  });
+
+  pajaro4.click(function(){
     $(titulos).hide('fast');
     $(simbol).hide('fast');
     $(inforef).hide('fast');

@@ -13,8 +13,25 @@
   left: 95%;
   transform: translate(-95%, -50%);
 }
-.fotopajaro{
+
+.fotopajaro1{
   height: 100px;
+  opacity: 100%;
+}
+
+.fotopajaro2{
+  height: 90px;
+  opacity: 100%;
+}
+
+.fotopajaro3{
+  height: 80px;
+  opacity: 100%;
+  margin: 7px;
+}
+
+.fotopajaro4{
+  width: 75px;
   opacity: 100%;
 }
 
