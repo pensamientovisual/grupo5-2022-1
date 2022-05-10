@@ -107,8 +107,10 @@ body{
 
 .textomapa{
   font-family:Verdana;
-  font-size: 10px;
+  font-size: 12px;
   color:#663F3F;
+  background-color: white;
+  
 
 }
 .titulopajaro{
@@ -120,121 +122,121 @@ body{
 #titulocondor{
   color: #EC4646;
 }
-
+ 
 #titulogarzacuca{
   color: #007355;
 }
-
+ 
 #titulohuala{
-  color: #BBF1FA;
+  color: #51C2D5;
 }
-
+ 
 #tituloaguila{
-  color: #BBF1FA;
+  color: #51C2D5;
 }
-
+ 
 #titulobandurria{
-  color: #BBF1FA;
+  color: #51C2D5;
 }
-
+ 
 #titulocormoran{
-  color: #BBF1FA;
+  color: #51C2D5;
 }
-
+ 
 #tituloquetru{
   color: #EC4646;
 }
-
+ 
 #titulocaiquen{
   color: #EC4646;
 }
-
+ 
 #titulocaranca{
-  color: #BBF1FA;
+  color: #51C2D5;
 }
-
+ 
 #titulopeuco{
   color: #EC4646;
 }
-
+ 
 #titulotagua{
-  color: #BBF1FA;
+  color: #51C2D5;
 }
-
+ 
 #tituloaguilucho{
   color: #007355;
 }
-
+ 
 #titulopatoreal{
-  color: #BBF1FA;
+  color: #51C2D5;
 }
-
+ 
 #titulotucuquere{
-  color: #BBF1FA;
+  color: #51C2D5;
 }
-
+ 
 #titulocarpintero{
   color: #EC4646;
 }
-
+ 
 #titulopilpilen{
-  color: #BBF1FA;
+  color: #51C2D5;
 }
-
+ 
 #titulomartinpescador{
   color: #007355;
 }
-
+ 
 #titulopatocorrentino{
   color: #EC4646;
 }
-
+ 
 #titulochoroy{
-  color: #BBF1FA;
+  color: #51C2D5;
 }
-
+ 
 #titulotorcaza{
   color: #007355;
 }
-
+ 
 #tituloconcon{
   color: #EC4646;
 }
-
+ 
 #titulocernicalo{
-  color: #BBF1FA;
+  color: #51C2D5;
 }
-
+ 
 #titulotordo{
-  color: #BBF1FA;
+  color: #51C2D5;
 }
-
+ 
 #titulohuethuet{
   color: #EC4646;
 }
-
+ 
 #titulodiuca{
-  color: #BBF1FA;
+  color: #51C2D5;
 }
-
+ 
 #titulochincol{
-  color: #BBF1FA;
+  color: #51C2D5;
 }
-
+ 
 #titulorayadito{
-  color: #BBF1FA;
+  color: #51C2D5;
 }
-
+ 
 #titulochercan{
   color: #007355;
 }
-
+ 
 #titulopicaflor{
   color: #EC4646;
 }
-
+ 
 #titulocachudito{
-  color: #BBF1FA;
+  color: #51C2D5;
 }
 
 .enlace{
@@ -439,3 +441,17 @@ body{
   left: 95%;
   transform: translate(1700%, 950%);
 }
+
+#ref {
+  position: absolute;
+  font-size:50px;
+  top: 70%;
+  left: 82.5%;
+  transform: translate(-82.5%, -70%);
+  color:#663F3F;
+}
+
+#tituloref{
+  color:#663F3F;
+}
+

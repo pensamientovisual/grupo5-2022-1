@@ -3,6 +3,52 @@ $(document).ready(function(){
   var pajaro = $(".fotopajaro")
   var titulos = $("#titulo")
   var simbol = $("#simbologia")
+  var inforef=$("#referencias")
+
+  $("#ref").mouseenter(function(){
+    $(this).fadeTo("fast", 0.6);
+  });
+
+  $("#ref").mouseleave(function(){
+    $(this).fadeTo("fast", 1);
+  });
+
+  $("#ref").click(function(){
+    $(inforef).show('fast');
+    $(titulos).hide('fast');
+    $(simbol).hide('fast');
+    $("#condor").hide('fast');
+    $("#garza").hide('fast');
+    $("#huala"). hide('fast');
+    $("#aguila").hide('fast');
+    $("#bandurria").hide('fast');
+    $("#cormoran").hide('fast');
+    $("#quetru").hide('fast');
+    $("#caiquen").hide('fast');
+    $("#caranca").hide('fast');
+    $("#peuco").hide('fast');
+    $("#tagua").hide('fast');
+    $("#aguilucho").hide('fast');
+    $("#patoreal").hide('fast');
+    $("#tucuquere").hide('fast');
+    $("#carpintero").hide('fast');
+    $("#pilpilen").hide('fast');
+    $("#martinpescador").hide('fast');
+    $("#cortacorriente").hide('fast');
+    $("#choroy").hide('fast');
+    $("#torcaza").hide('fast');
+    $("#concon").hide('fast');
+    $("#cernicalo").hide('fast');
+    $("#tordo").hide('fast');
+    $("#huethuet").hide('fast');
+    $("#diuca").hide('fast');
+    $("#chincol").hide('fast');
+    $("#rayadito").hide('fast');
+    $("#chercan").hide('fast');
+    $("#picaflor").hide('fast');
+    $("#cachudito").hide('fast');
+    
+  });
   
   pajaro.mouseenter(function(){
       $(this).fadeTo("fast", 0.6);
@@ -15,6 +61,7 @@ $(document).ready(function(){
   pajaro.click(function(){
     $(titulos).hide('fast');
     $(simbol).hide('fast');
+    $(inforef).hide('fast');
   });
 
   $("#fotocondor").click(function(){
